@@ -20,7 +20,7 @@ const RESOURCES = [
   {
     tag: "Lag",
     t: "Föräldraledighetslagen (1995:584)",
-    d: "Rätten till ledighet, delledighet och skydd mot missgynnande (16 §). Omvänd bevisbörda i tvister.",
+    d: "Rätten till ledighet, delledighet och skydd mot missgynnande (16 §). Bevislättnadsregel vid tvist i 24 §.",
     host: "riksdagen.se",
     cta: "Läs författning",
     url: "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/foraldraledighetslag-1995584_sfs-1995-584/",
@@ -76,7 +76,7 @@ const RESOURCES = [
   {
     tag: "Region",
     t: "CAMM — Centrum för arbets- och miljömedicin",
-    d: "Regional specialistresurs. Kostnadsfri och remissfri rådgivning för gravida i Region Stockholm.",
+    d: "Regional specialistresurs. Kostnadsfri rådgivning för gravida i Region Stockholm eller Gotland; remissfritt för gravida utan tillgång till företagshälsovård.",
     host: "camm.regionstockholm.se",
     cta: "Gravid-sida",
     url: "https://www.camm.regionstockholm.se/patientmottagning/arbets--och-miljomedicinska-mottagningen/om-du-ar-gravid/",
@@ -124,7 +124,7 @@ const RESOURCES = [
   {
     tag: "Myndighet",
     t: "Diskrimineringsombudsmannen — Föräldraledighet",
-    d: "Missgynnande som har samband med föräldraledighet. Omvänd bevisbörda, skadeståndsärenden.",
+    d: "Missgynnande som har samband med föräldraledighet. Bevislättnadsregel (24 § FLL), skadeståndsärenden.",
     host: "do.se",
     cta: "Öppna sida",
     url: "https://www.do.se/",
@@ -139,12 +139,12 @@ export default function Resurser() {
         title="Resurser &"
         titleEm="länkar"
         eyebrow="KAP. 6"
-        lede="Samlade primärkällor: lagtext, föreskrifter, myndighetsinformation och fackliga guider. Allt öppnar i ny flik."
+        lede="Källor och vidare läsning: lagtext, föreskrifter, myndighetsinformation och fackliga guider. Allt öppnar i ny flik."
       />
       <div className="grid">
         <div className="grid__label"><strong>6.1</strong>Källor</div>
         <div className="section reveal">
-          <div className="section__kicker">Primärkällor</div>
+          <div className="section__kicker">Källor</div>
           <div className="tiles">
             {RESOURCES.map((r, i) => (
               <a className="tile" key={i} href={r.url} target="_blank" rel="noopener noreferrer">

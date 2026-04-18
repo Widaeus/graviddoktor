@@ -21,7 +21,7 @@ export default function Arbetsmiljo() {
           <div className="prose">
             <p className="lead">Den 1 januari 2025 trädde Arbetsmiljöverkets omstrukturerade regelverk i kraft. De tidigare föreskrifterna om gravida och ammande (AFS 2007:5) har ersatts och inkorporerats i <a className="ref">AFS 2023:2 kapitel 7 — Gravida, nyförlösta och ammande arbetstagare</a>.</p>
             <p>Skyddet vilar på flera lager: Arbetsmiljölagen (SFS 1977:1160) sätter ramarna, AFS 2023:2 kap 7 preciserar rutinerna, och vid strålning trumfar Strålskyddslagen (SFS 2018:396) 4 kap allt annat. Föräldraledighetslagen §§ 18–20 ger rätt till omplacering och skyddsledighet, och Diskrimineringslagen 2 kap 1 § förbjuder missgynnande som har samband med graviditet.</p>
-            <p>Skyddet aktiveras av <strong>din anmälan</strong>. Utan anmälan — inget särskilt skydd. Anmäl därför skriftligt (e-post) så fort graviditeten är känd, särskilt om du arbetar i högriskmiljö, eftersom fostret är som mest känsligt under de första veckorna.</p>
+            <p>De individuella graviditetsspecifika åtgärderna aktualiseras i praktiken när arbetsgivaren fått besked om graviditeten — utan anmälan blir det därför svårare att utlösa de individuella skyddsåtgärderna. Anmäl skriftligt (e-post) så fort graviditeten är känd, särskilt om du arbetar i högriskmiljö, eftersom fostret är som mest känsligt under de första veckorna. Samtidigt ska arbetsgivaren redan i förväg ha kartlagt risker för gravida i verksamheten.</p>
           </div>
           <div className="callout">
             <div className="callout__tag">Viktigt</div>
@@ -74,7 +74,7 @@ export default function Arbetsmiljo() {
           <div className="section__kicker">Smittämnen i riskklass 2–4</div>
           <h3 className="section__h">Smittor som måste bedömas individuellt</h3>
           <div className="prose">
-            <p>Sjukhusmiljön är per definition förenad med risk för potenta patogener. För <strong>rubella</strong> och <strong>toxoplasma</strong> gäller absolut förbud om immunitet saknas. För övriga smittor krävs individuell bedömning utifrån exponeringens art, grad och varaktighet.</p>
+            <p>Sjukhusmiljön är per definition förenad med risk för potenta patogener. Vissa smittämnen omfattas av uttryckliga förbud enligt AFS 2023:2 när immunitet saknas, medan andra kräver individuell bedömning utifrån exponeringens art, grad och varaktighet. I klinisk vardag bör därför både immunitetsstatus, arbetsmoment och lokala skyddsrutiner vägas in.</p>
           </div>
           <ol className="list-num">
             <li>
@@ -86,13 +86,13 @@ export default function Arbetsmiljo() {
             <li>
               <div>
                 <h4>Parvovirus B19 (femte sjukan)</h4>
-                <p>Underskattad risk. Primärinfektion före graviditetsvecka 20 ger cirka 9 % missfallsrisk samt risk för hydrops fetalis. Vid utbrott på barn- eller infektionsavdelning ska immunnegativ gravid omplaceras.</p>
+                <p>Underskattad risk. Primärinfektion före graviditetsvecka 20 ger cirka 9 % missfallsrisk samt risk för hydrops fetalis. Vid utbrott på barn- eller infektionsavdelning bör immunnegativ gravid normalt omplaceras.</p>
               </div>
             </li>
             <li>
               <div>
                 <h4>Varicella zoster och mässling</h4>
-                <p>Högsmittsamt luftburet. Immunnegativ gravid ska <strong>inte</strong> exponeras för akut vattkoppsfall, disseminerad zoster eller mässling — även FFP3 räcker inte som garanti på grund av bristande rutiner och dörrspaltssmitta.</p>
+                <p>Högsmittsamt luftburet. Vid misstänkt eller känd exponering för mässling eller vattkoppor hos icke-immun gravid personal är försiktighetslinjen i praktiken ofta mycket restriktiv. Även om skyddsutrustning minskar risken bör arbetsgivaren normalt planera bort sådan exponering snarare än förlita sig enbart på FFP3.</p>
               </div>
             </li>
             <li>
@@ -104,7 +104,7 @@ export default function Arbetsmiljo() {
             <li>
               <div>
                 <h4>Rubella (röda hund) och toxoplasma</h4>
-                <p>Absoluta förbud enligt AFS 2023:2 vid utebliven immunitet. Brott kan ge sanktionsavgift. Rubella är ovanligt i Sverige tack vare vaccinationsprogrammet men fertil vårdpersonal bör ändå kontrolleras.</p>
+                <p>Uttryckliga förbud enligt AFS 2023:2 vid utebliven immunitet. Brott kan ge sanktionsavgift. Rubella är ovanligt i Sverige tack vare vaccinationsprogrammet men fertil vårdpersonal bör ändå kontrolleras.</p>
               </div>
             </li>
             <li>
@@ -124,9 +124,9 @@ export default function Arbetsmiljo() {
           <div className="section__kicker">Strålskyddslagen 4 kap 7–11 §§</div>
           <h3 className="section__h">Läkarens starkaste skydd</h3>
           <div className="prose">
-            <p className="lead">Strålskyddslagen ger en asymmetriskt stark rätt. Efter din anmälan ska arbetet planeras så att fostrets effektiva dos <strong>inte förväntas överstiga 1 mSv</strong> under återstoden av graviditeten.</p>
-            <p><strong>4 kap 9 § SSL</strong> ger dig en nästan ovillkorlig rätt: på egen begäran ska arbetsgivaren erbjuda arbetsuppgifter utan exponering utöver allmänhetens nivå. Det betyder att en gravid interventionell kardiolog, radiolog, ortoped med C-båge, urolog eller kärlkirurg kan begära att slippa genomlysningsmomenten även om historisk badgedos ligger långt under gränsen.</p>
-            <p>1 mSv är ett <em>tak</em>, inte ett riktvärde — ALARA-principen gäller även under tröskeln. Dessutom är det <strong>absolut förbjudet</strong> enligt 4 kap 10 § att gravid eller ammande deltar i radiologiska nödsituationer.</p>
+            <p className="lead">Strålskyddslagen ger ett starkt skydd. Efter att graviditeten anmälts ska arbetet planeras så att fosterdosen blir så låg som möjligt och <strong>inte förväntas överstiga 1 mSv</strong> under återstoden av graviditeten.</p>
+            <p>Enligt <strong>4 kap 9 § SSL</strong> ska arbetsgivaren, om den gravida begär det, erbjuda arbetsuppgifter som inte innebär exponering utöver allmänhetens nivåer. Det betyder att en gravid interventionell kardiolog, radiolog, ortoped med C-båge, urolog eller kärlkirurg kan begära att slippa genomlysningsmomenten även om historisk badgedos ligger långt under gränsen.</p>
+            <p>1 mSv är ett <em>tak</em>, inte ett riktvärde — ALARA-principen gäller även under tröskeln. Enligt 4 kap 10 § är det dessutom <strong>uttryckligen förbjudet</strong> att gravid eller ammande deltar i radiologiska nödsituationer.</p>
             <p>MR-kamerans statiska magnetfält har inte i kontrollerade studier visat fosterskada. Enligt försiktighetsprincipen — bred praxis i svensk vård — bör gravid personal ändå undvika att vistas i magnetrummet under pågående skanning. Granskning av bilder utanför undersökningsrummet är oproblematiskt.</p>
           </div>
         </div>
@@ -153,7 +153,7 @@ export default function Arbetsmiljo() {
             <li>
               <div>
                 <h4>Formaldehyd, bencement, lösningsmedel</h4>
-                <p>Formalin är reproduktionstoxiskt — gravid patolog ska inte utföra makroskopiska snittningar eller arbeta vid fixeringsbänk. Metylmetakrylat (bencement) i ortopedi bör undvikas under härdningsfasen. Organiska lösningsmedel ökar missfallsrisken vid höggradig exponering.</p>
+                <p>Formalin är reproduktionstoxiskt — vid arbete med formalin eller annan reproduktionstoxisk exponering bör gravid patolog få en tydlig individuell bedömning; i praktiken innebär det ofta att makroskopiska moment och arbete vid fixeringsbänk tas bort. Metylmetakrylat (bencement) i ortopedi bör normalt undvikas under härdningsfasen. Organiska lösningsmedel ökar missfallsrisken vid höggradig exponering och kräver individuell bedömning.</p>
               </div>
             </li>
             <li>
@@ -165,13 +165,13 @@ export default function Arbetsmiljo() {
             <li>
               <div>
                 <h4>Nattarbete i jourverksamhet</h4>
-                <p>Sedan 2025 är <strong>nattarbete i jourverksamhet med krav på akuta insatser</strong> explicit utpekat som riskfaktor i AFS 2023:2 bilaga 1 — tidigare låg detta endast i allmänna råd. Det öppnar för jourreduktion långt tidigare än de sista 60 dagarna om den individuella bedömningen stöder det.</p>
+                <p>Nattarbete bör vara en central fråga i riskbedömningen för gravida läkare med jour eller nattpass. Enligt AFS 2023:2 får arbetsgivaren inte sysselsätta en gravid i nattarbete om läkarintyg anger att det skulle vara skadligt för hälsa eller säkerhet. Även utan ett sådant intyg kan jour- och nattbelastning behöva anpassas utifrån den individuella riskbedömningen — det öppnar för jourreduktion tidigare än de sista 60 dagarna om bedömningen stöder det.</p>
               </div>
             </li>
             <li>
               <div>
                 <h4>Hot, våld och psykosocial belastning</h4>
-                <p>Psykiatri, rättspsyk och akutmottagning. Fysiskt trauma mot buken kan direkt skada fostret; kraftigt stresspåslag vid hot är i sig en negativ faktor. Gravid läkare ska undvika triage-zon, hög-våld-områden och arbete med kända våldsbenägna patienter.</p>
+                <p>Psykiatri, rättspsyk och akutmottagning. Fysiskt trauma mot buken kan direkt skada fostret; kraftigt stresspåslag vid hot är i sig en negativ faktor. Gravid läkare bör i regel inte arbeta i triage-zon, hög-våld-områden eller med kända våldsbenägna patienter — den exakta avvägningen bygger på individuell riskbedömning och lokal tillämpning.</p>
               </div>
             </li>
           </ol>
@@ -186,7 +186,7 @@ export default function Arbetsmiljo() {
           <h3 className="section__h">Rätten att befrias från jour från dag ett</h3>
           <div className="prose">
             <p className="lead">Stockholms läkarförening slöt i september 2008 ett lokalt kollektivavtal med dåvarande Stockholms läns landsting som ger gravida läkare rätt att <strong>på egen begäran</strong> befrias från jourarbete på kvällar, nätter och helger <strong>omedelbart från det att graviditeten konstaterats</strong>.</p>
-            <p>Detta avtal eliminerar kravet på medicinska intyg och väntetider. Det bygger på att fostret är som mest känsligt under organogenesen tidigt i graviditeten. Rätten till tidig jourbefrielse är ett av de mest potenta arbetsmiljöverktygen inom Region Stockholm — men den medför också ett stort schemapussel för verksamheten, vilket kan skapa friktion.</p>
+            <p>Avtalet innebär att kravet på medicinska intyg och väntetider bortfaller inom dess tillämpningsområde, och bygger på att fostret är som mest känsligt under organogenesen tidigt i graviditeten. Det är ett lokalt avtals- och tillämpningsspår som kan ge tidigare jourbefrielse än de centrala reglerna — men den exakta innebörden och giltigheten bör verifieras med lokal läkarförening eller HR, inte åberopas som en universell regel utan kontroll. Rätten medför också ett schemapussel för verksamheten, vilket kan skapa friktion.</p>
           </div>
           <div className="callout">
             <div className="callout__tag">Så gör du</div>
@@ -203,6 +203,9 @@ export default function Arbetsmiljo() {
         <div className="grid__label"><strong>3.7</strong>Processen steg för steg</div>
         <div className="section reveal">
           <div className="section__kicker">Från anmälan till uppföljning</div>
+          <div className="prose">
+            <p>Följande steg är en <strong>praktisk och rättssäker arbetsgång</strong> — en rekommenderad process snarare än lagstadgade tidsfrister. Exakta tider kan variera mellan verksamheter; det viktiga är att arbetsgivaren agerar skyndsamt och dokumenterar besluten.</p>
+          </div>
           <div className="rows">
             <div className="row">
               <div className="row__wk">STEG 01</div>
@@ -306,7 +309,7 @@ export default function Arbetsmiljo() {
             <div className="callout__tag">Parallell kanal</div>
             <div>
               <h5>CAMM kan kontaktas utan arbetsgivarens vetskap</h5>
-              <p>Centrum för arbets- och miljömedicin (Solnavägen 4, plan 10, 113 65 Stockholm, tel 08-123 372 22) erbjuder kostnadsfri rådgivning till gravida skrivna i Region Stockholm. Remissfritt och konfidentiellt. Parallell bedömning kan vara värdefull när du känner att lokal process inte räcker.</p>
+              <p>Centrum för arbets- och miljömedicin (Solnavägen 4, plan 10, 113 65 Stockholm, tel 08-123 372 22) ger kostnadsfri rådgivning till gravida som är skrivna i Region Stockholm eller Gotland. För gravida som saknar tillgång till företagshälsovård behövs ingen remiss; i andra fall bör arbetsgivaren i första hand koppla in företagshälsovården. Parallell bedömning kan ändå vara värdefull när du känner att lokal process inte räcker.</p>
             </div>
           </div>
         </div>
@@ -319,7 +322,7 @@ export default function Arbetsmiljo() {
           <div className="section__kicker">Specifik problematik för läkare under utbildning</div>
           <h3 className="section__h">Varje ny placering är en ny riskbedömning</h3>
           <div className="prose">
-            <p>En gravid ST-läkare inför randning till anestesi, pediatrik, akut eller operation ska ha <strong>ny skriftlig riskbedömning för mottagande placering minst 2–4 veckor före tillträde</strong>, med möte med mottagande chef, studierektor och skyddsombud. Detta försummas systematiskt — Läkartidningens granskning 2018 visade att endast 3 av 39 studierektorer kunde redovisa dokumenterade individuella riskbedömningar.</p>
+            <p>En praktisk och rättssäker arbetsgång för gravid ST-läkare inför randning till anestesi, pediatrik, akut eller operation är att <strong>ny skriftlig riskbedömning för mottagande placering görs i god tid före tillträde — gärna 2–4 veckor</strong>, med möte med mottagande chef, studierektor och skyddsombud. Detta försummas systematiskt — Läkartidningens granskning 2018 visade att endast 3 av 39 studierektorer kunde redovisa dokumenterade individuella riskbedömningar.</p>
             <p>Studierektorn är <strong>inte</strong> arbetsmiljöansvarig — det är verksamhetschefen. Studierektorns roll är samordning: planera om rotationer, bevaka utbildningsvärdet, dokumentera att delmål kan uppfyllas via alternativ aktivitet. <a className="ref">HSLF-FS 2021:8</a> är kompetensbaserad — det är kompetensen, inte tiden på en viss placering, som räknas.</p>
             <p>Att <strong>stanna kvar på en lågriskplacering</strong> är en legitim åtgärd enligt § 7 och ofta den enklaste lösningen. Läkarförbundets linje: gravid ST-läkare ska inte tvingas påbörja rotation till riskfylld placering om alternativ finns som ger meriteringsvärde.</p>
           </div>
@@ -341,7 +344,7 @@ export default function Arbetsmiljo() {
           <h3 className="section__h">Där evidens, försiktighet och praxis kolliderar</h3>
           <div className="prose">
             <p><strong>CMV i barnsjukvård.</strong> Vårdhandboken säger att basala hygienrutiner räcker; många regioner praktiserar ändå strängare individuell hantering för immunnegativa. Balanserad linje: serologi före graviditet, modifierade uppgifter (ingen blöj-/saliv-/urin-kontakt med barn under tre år) snarare än full omplacering.</p>
-            <p><strong>Strålning under 1 mSv.</strong> Lagens ord "inte förväntas överstiga 1 mSv" är ett tak — inte en målnivå. ALARA gäller även under tröskeln, och 4 kap 9 § SSL ger ovillkorlig rätt till omplacering oavsett uppmätt dos.</p>
+            <p><strong>Strålning under 1 mSv.</strong> Lagens ord "inte förväntas överstiga 1 mSv" är ett tak — inte en målnivå. ALARA gäller även under tröskeln, och 4 kap 9 § SSL ger en stark rätt till omplacering oavsett uppmätt dos.</p>
             <p><strong>Evidens vs försiktighet.</strong> AFS 2023:2 lutar mot försiktighetsprincip, men försiktigheten får inte bli diskriminering. Du har rätt till <em>rimlig anpassning</em> — inte automatisk hemsändning. Schabloner som "alla gravida ST-läkare skickas hem från akuten" är inte förenliga med kravet på individuell bedömning.</p>
             <p><strong>Serologisk screening.</strong> Inget nationellt program utöver rubella finns. CMV-kontroll är inte standard men kan starkt motiveras för pediatrik/neonatologi/barnakut. Om screeningen ingår i arbetsgivarens plikt enligt AFS 2023:15 ska den bekostas via företagshälsovården — i praktiken varierar detta.</p>
           </div>

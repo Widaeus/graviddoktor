@@ -19,7 +19,7 @@ export default function Hero() {
       </div>
 
       <div className="hero__top">
-        <span><strong>Gravid Doktor</strong> — En guide för läkare i Stockholm</span>
+        <span><strong>Gravid Doktor</strong> — En guide för läkare i Region Stockholm</span>
         <span><span>Senast rev. 2026-04-18</span></span>
       </div>
 
@@ -31,7 +31,10 @@ export default function Hero() {
         </div>
         <div>
           <p className="hero__manifesto">
-            Det är svårt att hitta vad det är som gäller när man är gravid eller nybliven förälder, och det är inte alltid det stämmer överens med det man får höra. Denna guide försöker samla de rättigheter, skyldigheter och rutiner som gäller dig som gravid läkare i Region Stockholm: från riskbedömning på avdelningen till föräldraledighet, ersättning och det stöd du har rätt till av arbetsgivaren.
+            Det är ofta svårt att få en tydlig bild av vad som gäller vid graviditet och föräldraskap i läkaryrket. Den här guiden samlar lagregler, myndighetsinformation, kollektivavtal och praktiska erfarenheter för läkare som i första hand är anställda i Region Stockholm: från riskbedömning och arbetsanpassning till föräldraledighet, ersättning och återgång i arbete. Där rättsläget är lokalt, avtalsbundet eller beroende av individuell bedömning försöker guiden ange det uttryckligen.
+          </p>
+          <p className="hero__manifesto" style={{ fontSize: '15px', opacity: 0.78, marginTop: '-12px' }}>
+            För privata arbetsgivare, bemanningsanställningar, kombinationsanställningar och andra regioner kan delar av innehållet skilja sig. Guiden är ett arbetsmaterial och ersätter inte juridisk rådgivning, medicinsk bedömning eller uppgifter från Försäkringskassan, arbetsgivare eller facklig rådgivning.
           </p>
           <div className="hero__toc">
             <div className="hero__toc__t">Innehåll — sju kapitel</div>

@@ -12,7 +12,7 @@ const ARBETSPLATS = [
   { t: "Närmaste chef & HR", d: "Anmälan, riskbedömning, föräldrapenningtillägg och föräldralön.", host: "intern kanal", url: null },
   { t: "Studierektor", d: "ST-plan, randning och delmål — för underläkare under utbildning.", host: "intern kanal", url: null },
   { t: "Företagshälsovård", d: "Oberoende medicinsk bedömning — via HR eller chef.", host: "lokal leverantör", url: null },
-  { t: "CAMM", d: "Centrum för arbets- och miljömedicin. Kostnadsfri och remissfri rådgivning till gravida i Region Stockholm.", host: "camm.regionstockholm.se", url: "https://www.camm.regionstockholm.se/patientmottagning/arbets--och-miljomedicinska-mottagningen/om-du-ar-gravid/" },
+  { t: "CAMM", d: "Centrum för arbets- och miljömedicin. Kostnadsfri rådgivning till gravida i Region Stockholm eller Gotland; remissfritt för gravida utan tillgång till företagshälsovård.", host: "camm.regionstockholm.se", url: "https://www.camm.regionstockholm.se/patientmottagning/arbets--och-miljomedicinska-mottagningen/om-du-ar-gravid/" },
 ];
 
 const MYNDIGHETER = [

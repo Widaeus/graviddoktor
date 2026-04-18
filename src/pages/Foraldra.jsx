@@ -9,7 +9,7 @@ export default function Foraldra() {
         titleEm="ledighet"
         eyebrow="KAP. 4"
         readTime="10 min"
-        lede="Rätten till ledighet styrs av föräldraledighetslagen (SFS 1995:584) och socialförsäkringsbalken. Den ekonomiska utfyllnaden ovanpå Försäkringskassan styrs av kollektivavtalet AB 25 (§ 29). För dig som läkare i Region Stockholm innebär kombinationen omkring 90 % av ordinarie lön under merparten av ledigheten — men också tidigare anmälningstider och strikta regler för ST-tjänstgöringen."
+        lede="Rätten till ledighet styrs av föräldraledighetslagen (SFS 1995:584) och socialförsäkringsbalken. Den ekonomiska utfyllnaden ovanpå Försäkringskassan styrs av kollektivavtalet AB 25 (§ 29). För regionanställda läkare kan kombinationen i många fall ge en ersättningsnivå nära 90 % under delar av ledigheten — den faktiska nivån beror dock på lön, uttag, kollektivavtal och arbetsgivarens tillämpning. Därtill gäller tidigare anmälningstider och särskilda regler för ST-tjänstgöringen."
       />
 
       {/* 4.1 Rättsligt fundament */}
@@ -49,7 +49,7 @@ export default function Foraldra() {
             <li>
               <div>
                 <h4>Hel ledighet tills barnet är 18 månader</h4>
-                <p>Ovillkorlig rätt att vara helt ledig från arbetet tills barnet fyller 1,5 år, <em>oavsett</em> om du tar ut föräldrapenning eller inte. Detta är grundrätten som arbetsgivaren inte kan neka av bemanningsskäl.</p>
+                <p>Stark rätt enligt lag att vara helt ledig från arbetet tills barnet fyller 1,5 år, <em>oavsett</em> om du tar ut föräldrapenning eller inte. Detta är grundrätten som arbetsgivaren inte kan neka av bemanningsskäl.</p>
               </div>
             </li>
             <li>
@@ -67,7 +67,7 @@ export default function Foraldra() {
             <li>
               <div>
                 <h4>Delledighet utan föräldrapenning</h4>
-                <p>Rätt att minska normal arbetstid med upp till <strong>25 %</strong> — alltså gå ned till 75 % — utan att ta ut föräldrapenning, fram till barnet fyller 8 år eller avslutat första skolåret. Rätten är absolut; förläggningen samråds.</p>
+                <p>Rätt att minska normal arbetstid med upp till <strong>25 %</strong> — alltså gå ned till 75 % — utan att ta ut föräldrapenning, fram till barnet fyller 8 år eller avslutat första skolåret. Rätten följer av lag; förläggningen samråds.</p>
               </div>
             </li>
             <li>
@@ -154,7 +154,7 @@ export default function Foraldra() {
             <p className="lead">Ovanpå Försäkringskassans ersättning betalar Region Stockholm två separata tillägg via AB 25 § 29. Kvalifikationskravet är <strong>minst 180 sammanhängande kalenderdagars anställning</strong> innan ledigheten börjar — inte 356 dagar, inte 365 dagar.</p>
             <p><strong>Föräldrapenningtillägget</strong> lämnas i upp till 180 kalenderdagar per födsel och motsvarar 10 % av lönebortfallet. Det kan tas ut fram till barnet fyller 24 månader och förutsätter att du samtidigt tar ut föräldrapenning över grund- eller lägstanivå.</p>
             <p><strong>Föräldralönen</strong> (utfyllnadslön) är en mellanskillnadsersättning för den del av lönen som ligger över Försäkringskassans tak. Den betalas i upp till <strong>270 kalenderdagar per födsel</strong> om din fasta kontanta månadslön överstiger tröskeln <strong>10 prisbasbelopp / 12</strong> — för 2026 cirka 49 300 kr/mån.</p>
-            <p>Kombinationen av föräldrapenning, föräldrapenningtillägg och föräldralön ger typiskt cirka <strong>90 % av ordinarie månadslön</strong> under merparten av den sammanhängande ledigheten.</p>
+            <p>För regionanställda läkare kan kombinationen av föräldrapenning, föräldrapenningtillägg och föräldralön i många fall ge en ersättningsnivå <strong>nära 90 % av ordinarie månadslön</strong> under delar av ledigheten. Den faktiska nivån beror dock på lön, uttag, kollektivavtal och arbetsgivarens tillämpning.</p>
           </div>
           <div className="callout">
             <div className="callout__tag">Räkneexempel</div>
@@ -247,8 +247,8 @@ export default function Foraldra() {
           <ol className="list-num">
             <li>
               <div>
-                <h4>Tjänstepension (AKAP-KR) — fortsatt inbetalning</h4>
-                <p>Region Stockholm fortsätter att betala in till tjänstepension under <strong>hela</strong> föräldraledigheten — baserat på den lön du skulle haft om du arbetat. Avsättningen är normalt 6 % av lönen upp till 7,5 inkomstbasbelopp och 31,5 % därutöver. Detta gäller både SLSO och akutsjukhusförvaltningarna och är en tydlig skillnad mot många privata upplägg där inbetalningarna pausar.</p>
+                <h4>Tjänstepension (AKAP-KR) — normalt fortsatt inbetalning</h4>
+                <p>Region Stockholm anger att tjänstepensionsavsättning <strong>normalt fortsätter även under föräldraledighet</strong>, baserat på den lön du skulle haft om du arbetat. Avsättningen är normalt 6 % av lönen upp till 7,5 inkomstbasbelopp och 31,5 % därutöver. Eftersom villkoren kan bero på pensionsavtal och anställningsform bör uppgiften kontrolleras mot aktuell pensionsinformation — upplägget skiljer sig också från många privata lösningar där frånvaroperioder kan pausa inbetalningarna.</p>
               </div>
             </li>
             <li>
@@ -286,15 +286,15 @@ export default function Foraldra() {
           <div className="section__kicker">Från ledighet till tjänst</div>
           <h3 className="section__h">Rätten att få tillbaka sitt arbete</h3>
           <div className="prose">
-            <p>Du har rätt att avbryta ledigheten och återgå till samma arbetstid som före ledigheten. Om den planerade ledigheten var minst en månad kan arbetsgivaren skjuta upp återgången i högst en månad. Vid återgång har du rätt till <strong>samma eller likvärdigt arbete</strong> — med samma innehåll, omfattning och villkor. Arbetsledningsrätten innebär inte att arbetsgivaren fritt kan omplacera dig till en sämre position efter ledigheten; en sådan omplacering är ett otillåtet missgynnande enligt 16 § FLL.</p>
+            <p>Du har rätt att avbryta ledigheten och återgå till samma arbetstid som före ledigheten. Om den planerade ledigheten var minst en månad kan arbetsgivaren skjuta upp återgången i högst en månad. Vid återgång har du rätt till <strong>samma eller likvärdigt arbete</strong> — med samma innehåll, omfattning och villkor. Missgynnande av skäl som har samband med föräldraledighet är förbjudet enligt 16 § föräldraledighetslagen; en sämre omplacering efter ledigheten kan utgöra ett sådant missgynnande.</p>
             <p>Stegvis återgång sker praktiskt genom delledighet. För läkare som går ned till 80 % gäller att <strong>jourbelastningen ska motsvara tjänstgöringsgraden</strong> enligt Läkarförbundets linje — jourlinjen får alltså inte ligga kvar på 100 % utan ditt samtycke. Samrådet om schemaförläggning ska dokumenteras skriftligt.</p>
             <p>Sedan 2022 finns dessutom en rätt att <strong>begära flexibla arbetsformer</strong> av omsorgsskäl för barn under åtta år, förutsatt minst sex månaders anställning. Arbetsgivaren ska svara inom skälig tid och motivera avslag eller senareläggning skriftligt.</p>
           </div>
           <div className="callout">
-            <div className="callout__tag">Omvänd bevisbörda</div>
+            <div className="callout__tag">Bevislättnad · 24 § FLL</div>
             <div>
               <h5>Arbetsgivaren måste motbevisa missgynnande</h5>
-              <p>16 § FLL har omvänd bevisbörda: om du kan visa omständigheter som ger anledning att <em>anta</em> samband mellan missgynnandet och föräldraledigheten — till exempel uteblivet löneutfall, indragen arbetsledning eller omplacering — måste arbetsgivaren visa att det inte berott på ledigheten. Skadestånd utgår vid överträdelse. För läkare inom Region Stockholm hanteras tvisten i första hand via lokal läkarförening; i sista hand via Diskrimineringsombudsmannen eller Arbetsdomstolen.</p>
+              <p>16 § föräldraledighetslagen förbjuder missgynnande av skäl som har samband med föräldraledighet. Om tvist uppstår gäller bevislättnadsregeln i 24 §: om du visar omständigheter som ger anledning att <em>anta</em> ett sådant samband — till exempel uteblivet löneutfall, indragen arbetsledning eller omplacering — måste arbetsgivaren visa att missgynnande inte skett eller att åtgärden varit en nödvändig följd av ledigheten. Skadestånd utgår vid överträdelse. För läkare inom Region Stockholm hanteras tvisten i första hand via lokal läkarförening; i sista hand via Diskrimineringsombudsmannen eller Arbetsdomstolen.</p>
             </div>
           </div>
         </div>
@@ -307,7 +307,7 @@ export default function Foraldra() {
           <div className="section__kicker">Region Stockholms förvaltningar</div>
           <h3 className="section__h">Huvudsakligen harmoniserat — med undantag</h3>
           <div className="prose">
-            <p>Sedan 1 januari 2025 är Danderyds sjukhus, Södersjukhuset, Södertälje sjukhus och S:t Eriks Ögonsjukhus avbolagiserade och ligger som förvaltningar under Akutsjukhusnämnden. Arbetsgivaren är därmed juridiskt Region Stockholm för alla dessa, och den centrala förmånsmodellen ska gälla genomgående. Offentligt publicerad information är dock inte helt harmoniserad — två avvikelser är värda att känna till.</p>
+            <p>Sedan 1 januari 2025 är Danderyds sjukhus, Södersjukhuset, Södertälje sjukhus och S:t Eriks Ögonsjukhus avbolagiserade och ligger som förvaltningar under Akutsjukhusnämnden. Arbetsgivaren är därmed juridiskt Region Stockholm för alla dessa, och den centrala förmånsmodellen ska gälla genomgående. Grundreglerna är i huvudsak gemensamma, men offentligt publicerad information från olika verksamheter är inte alltid harmoniserad — därför bör uppgifter om kvalifikationstid, föräldralön och lokala rutiner verifieras med HR eller lokalförening innan de används för ekonomisk planering.</p>
           </div>
           <div className="rows">
             <div className="row">
@@ -364,7 +364,7 @@ export default function Foraldra() {
           <h3 className="section__h">Försäkringskassan respektive arbetsgivaren</h3>
           <div className="prose">
             <p><strong>Tvist om Försäkringskassans beslut</strong> — begär omprövning hos Försäkringskassan. Omprövningsbeslutet kan överklagas till förvaltningsrätten inom två månader från mottagandet. Därefter kan ärendet gå vidare till kammarrätten efter prövningstillstånd.</p>
-            <p><strong>Tvist om arbetsgivaren</strong> — uteblivet föräldrapenningtillägg, felaktig schemaläggning vid delledighet, missgynnande vid lönesättning eller omplacering efter återgång. Kontakta lokal läkarförening och Läkarförbundets medlemsrådgivning. Föräldraledighetslagens skadeståndsbestämmelse och omvända bevisbörda ger en stark rättslig position. DO kan driva talan i vissa diskrimineringsärenden; i arbetsrättsliga tvister leder fackliga förhandlingar och i sista hand Arbetsdomstolen.</p>
+            <p><strong>Tvist om arbetsgivaren</strong> — uteblivet föräldrapenningtillägg, felaktig schemaläggning vid delledighet, missgynnande vid lönesättning eller omplacering efter återgång. Kontakta lokal läkarförening och Läkarförbundets medlemsrådgivning. Föräldraledighetslagens skadeståndsbestämmelse och bevislättnadsregeln i 24 § ger en stark rättslig position. DO kan driva talan i vissa diskrimineringsärenden; i arbetsrättsliga tvister leder fackliga förhandlingar och i sista hand Arbetsdomstolen.</p>
             <p>För gråzonsfrågor — rätt tillämpning av AB § 29, samråd om delledighet, eskalering vid utebliven löneutfyllnad — finns stödtexten i Läkarförbundets centrala material och i Region Stockholms centrala förmånssida. Lokal intranätinformation kompletterar men ersätter inte AB.</p>
           </div>
         </div>

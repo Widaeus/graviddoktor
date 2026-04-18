@@ -70,7 +70,7 @@ const NODES = [
   {
     w: 'Återgång',
     t: 'Samma eller likvärdigt arbete',
-    d: '16 § FLL — omvänd bevisbörda vid tvist.',
+    d: '16 § FLL — bevislättnadsregel vid tvist i 24 §.',
     acts: [
       { tag: 'bor', txt: 'Skriftligt återgångsbesked' },
       { tag: 'kan', txt: 'Flexibla arbetsformer för barn < 8 år' },
@@ -87,7 +87,7 @@ export default function Tidslinje() {
         title="Tidslinje"
         eyebrow="KAP. 2"
         readTime="4 min"
-        lede="En kronologisk karta över allt som händer från besked om graviditet till återgång efter ledigheten. Kapitlet är sajtens index — innehållet fördjupas i efterföljande kapitel."
+        lede="En kronologisk karta med praktisk arbetsgång från besked om graviditet till återgång efter ledigheten — rekommenderad process snarare än lagstadgade tidsfrister. Kapitlet är sajtens index; innehållet fördjupas i efterföljande kapitel."
       />
 
       <div className="grid">
@@ -102,7 +102,7 @@ export default function Tidslinje() {
             </div>
             <div className="htl__legend-item">
               <span className="act__tag act__tag--bor">Bör</span>
-              <span>Du eller arbetsgivaren måste</span>
+              <span>Något du eller arbetsgivaren normalt ska göra</span>
             </div>
             <div className="htl__legend-item">
               <span className="act__tag act__tag--kan">Kan</span>

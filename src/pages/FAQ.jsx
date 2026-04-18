@@ -4,7 +4,7 @@ import PageHead from '../components/PageHead.jsx';
 const FAQ_ITEMS = [
   {
     q: "När måste jag berätta om graviditeten för min arbetsgivare?",
-    a: "Det finns ingen lagstadgad gräns, men arbetsgivarens skyldigheter enligt AFS 2023:2 kap 7 aktiveras först efter din skriftliga anmälan. Anmäl så snart graviditeten är bekräftad — särskilt vid arbete med strålning, cytostatika, högsmittsamma patogener eller nattjour. Utan anmälan — inget särskilt skydd."
+    a: "Det finns ingen lagstadgad gräns. De individuella graviditetsspecifika åtgärderna enligt AFS 2023:2 kap 7 aktualiseras i praktiken när arbetsgivaren fått besked om graviditeten, så det är klokt att anmäla tidigt — särskilt vid arbete med strålning, cytostatika, högsmittsamma patogener eller nattjour. Samtidigt ska arbetsgivaren redan i förväg ha kartlagt risker för gravida i verksamheten."
   },
   {
     q: "Kan jag kräva jourbefrielse, och från när?",
@@ -12,7 +12,7 @@ const FAQ_ITEMS = [
   },
   {
     q: "Kan jag slippa nattarbete hela graviditeten?",
-    a: "Ja, om läkarintyg visar att nattarbete innebär hälsorisk för graviditeten. Sedan 2025 är nattarbete i jourverksamhet med krav på akuta insatser dessutom uttryckligen listat som riskfaktor i AFS 2023:2 bilaga 1, vilket underlättar avlastning även utan specifikt intyg."
+    a: "Du kan ofta få nattarbete borttaget eller minskat under graviditeten, men grunden ser olika ut beroende på situation. Enligt AFS 2023:2 får arbetsgivaren inte sysselsätta en gravid i nattarbete om läkarintyg anger att det skulle vara skadligt för hälsan eller säkerheten. Även utan ett sådant intyg kan natt- och jourbelastning behöva anpassas inom ramen för den individuella riskbedömningen."
   },
   {
     q: "Hur påverkas min ST-tid av föräldraledigheten?",
@@ -24,11 +24,11 @@ const FAQ_ITEMS = [
   },
   {
     q: "Vilken ersättning får jag vid arbetsförbud p.g.a. arbetsmiljörisk?",
-    a: "Du får graviditetspenning från Försäkringskassan — 80 % av SGI upp till taket (10 prisbasbelopp) — för hela den period arbetsförbudet gäller. För lönedelar över taket kan arbetsgivaren enligt AB 25 vara skyldig att betala mellanskillnad. Enligt Arbetsdomstolens dom AD 2025 nr 57 ska denna kompensation även omfatta förlorad jour- och beredskapsersättning retroaktivt för perioden 19 augusti 2015–19 augusti 2025."
+    a: "Du kan få graviditetspenning från Försäkringskassan — 80 % av SGI upp till taket (10 prisbasbelopp) — för hela den period arbetsförbudet gäller. För lönedelar över taket kan arbetsgivaren enligt AB 25 vara skyldig att betala mellanskillnad. För offentliga arbetsgivare har rättsläget stärkts genom AD 2025 nr 57, och i kommun- och regionsektorn har frågan om kompletterande ersättning därefter hanterats via partsöverenskommelser och facklig tillämpning. Kontrollera därför alltid vad som gäller hos just din arbetsgivare och för vilken period."
   },
   {
     q: "Får min lön eller befordran påverkas av att jag är föräldraledig?",
-    a: "Nej. 16 § föräldraledighetslagen förbjuder missgynnande i anställningsvillkor, lön, befordran, kompetensutveckling och arbetsledning av skäl som har samband med föräldraledighet. Arbetsgivaren är skyldig att inkludera dig i den årliga lönerevisionen, och du har rätt till lönesamtal även under pågående ledighet. Omvänd bevisbörda gäller i tvister — arbetsgivaren måste visa att missgynnandet inte berott på ledigheten."
+    a: "Nej. 16 § föräldraledighetslagen förbjuder missgynnande i anställningsvillkor, lön, befordran, kompetensutveckling och arbetsledning av skäl som har samband med föräldraledighet. Arbetsgivaren är skyldig att inkludera dig i den årliga lönerevisionen, och du har rätt till lönesamtal även under pågående ledighet. Vid tvist gäller bevislättnadsregeln i 24 §: om du visar omständigheter som ger anledning att anta ett sådant samband, måste arbetsgivaren visa att missgynnande inte skett eller att åtgärden varit en nödvändig följd av ledigheten."
   },
   {
     q: "Vad gör jag om min chef vägrar göra en riskbedömning?",
@@ -40,7 +40,7 @@ const FAQ_ITEMS = [
   },
   {
     q: "Vad händer med min tjänstepension under ledigheten?",
-    a: "Region Stockholm fortsätter betala in till tjänstepension (AKAP-KR) under hela föräldraledigheten, baserat på den lön du skulle haft om du arbetat. Avsättningen är normalt 6 % av lönen upp till 7,5 inkomstbasbelopp och 31,5 % därutöver. Detta skiljer sig från många privata upplägg där frånvaroperioder pausar inbetalningarna."
+    a: "Region Stockholm anger att tjänstepensionsavsättning (AKAP-KR) normalt fortsätter även under föräldraledighet, baserat på den lön du skulle haft om du arbetat. Avsättningen är normalt 6 % av lönen upp till 7,5 inkomstbasbelopp och 31,5 % därutöver. Exakta villkor bör kontrolleras mot aktuell pensionslösning och arbetsgivarens information; upplägget skiljer sig också från många privata lösningar där frånvaroperioder kan pausa inbetalningarna."
   },
   {
     q: "Hur skyddas min SGI om jag går ned till 80 % efter återgång?",
@@ -52,7 +52,7 @@ const FAQ_ITEMS = [
   },
   {
     q: "Har jag rätt till betald ledighet för mödravårdsbesök?",
-    a: "Anställda i region och kommun har rätt till upp till två betalda besök på mödravårdscentral under graviditeten — gäller båda föräldrarna. För ytterligare besök kan föräldrapenning tas ut från 60 dagar före beräknad förlossning."
+    a: "I kommun- och regionsektorn finns kollektivavtalsregler om ledighet med lön för ett begränsat antal besök på barnmorskemottagning. Kontrollera den exakta lokala tillämpningen och om förmånen gäller dig och den andra föräldern i din anställningsform. För ytterligare besök kan föräldrapenning tas ut från 60 dagar före beräknad förlossning."
   },
   {
     q: "Jag är gravid och inhyrd via bemanningsföretag — gäller samma regler?",
@@ -72,7 +72,7 @@ const FAQ_ITEMS = [
   },
   {
     q: "Vad gäller om jag blir missgynnad efter återgång — fel schema eller omplacering?",
-    a: "Föräldraledighetslagen har omvänd bevisbörda: om du visar omständigheter som ger anledning att anta samband mellan missgynnandet och ledigheten, måste arbetsgivaren visa att det inte berott på den. Skadestånd utgår vid överträdelse. Kontakta först lokal läkarförening, därefter Läkarförbundets medlemsrådgivning. DO kan driva talan i vissa diskrimineringsärenden."
+    a: "16 § föräldraledighetslagen förbjuder missgynnande av skäl som har samband med föräldraledighet. Vid tvist gäller bevislättnadsregeln i 24 §: om du visar omständigheter som ger anledning att anta ett sådant samband, måste arbetsgivaren visa att missgynnande inte skett eller att åtgärden varit en nödvändig följd av ledigheten. Skadestånd utgår vid överträdelse. Kontakta först lokal läkarförening, därefter Läkarförbundets medlemsrådgivning. DO kan driva talan i vissa diskrimineringsärenden."
   },
 ];
 
@@ -85,7 +85,7 @@ export default function FAQ() {
         title="Vanliga"
         titleEm="frågor"
         eyebrow="KAP. 5"
-        lede="Frågor som läkarföreningar, skyddsombud och studierektorer får återkommande — samlade och med källhänvisning till lag, förordning eller kollektivavtal."
+        lede="Frågor som läkarföreningar, skyddsombud och studierektorer får återkommande — sammanställda utifrån lag, föreskrifter, kollektivavtal och offentliga vägledningar."
       />
       <div className="grid">
         <div className="grid__label"><strong>5.1</strong>Q · A</div>

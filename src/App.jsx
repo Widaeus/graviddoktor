@@ -3,6 +3,7 @@ import Rail from './components/Rail.jsx';
 import Nav from './components/Nav.jsx';
 import End from './components/End.jsx';
 import Hero from './pages/Hero.jsx';
+import Tidslinje from './pages/Tidslinje.jsx';
 import Arbetsmiljo from './pages/Arbetsmiljo.jsx';
 import Foraldra from './pages/Foraldra.jsx';
 import FAQ from './pages/FAQ.jsx';
@@ -20,6 +21,7 @@ export default function App() {
       <Nav active={active} openChapter={openChapter} />
       <main className="stage">
         <Hero />
+        <Tidslinje />
         <Arbetsmiljo />
         <Foraldra />
         <FAQ />

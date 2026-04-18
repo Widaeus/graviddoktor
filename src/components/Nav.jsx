@@ -1,8 +1,25 @@
+import { useState } from 'react';
 import { PAGES } from '../data/pages.js';
 
 export default function Nav({ active }) {
+  const [open, setOpen] = useState(false);
+  const go = (id) => {
+    document.querySelector(`[data-page="${id}"]`)?.scrollIntoView({ behavior: 'smooth' });
+    setOpen(false);
+  };
+
   return (
-    <nav className="nav">
+    <nav className={`nav ${open ? 'nav--open' : ''}`}>
+      <button
+        className="nav__burger"
+        type="button"
+        aria-label={open ? 'Stäng meny' : 'Öppna meny'}
+        aria-expanded={open}
+        onClick={() => setOpen((o) => !o)}
+      >
+        <span></span><span></span><span></span>
+      </button>
+
       <div className="nav__eyebrow">Handbok · 2026:1</div>
       <div className="nav__title">Gravid <em>Doktor</em></div>
       <p className="nav__sub">Rättigheter, skyldigheter och rutiner för dig som är läkare och gravid i Stockholm.</p>
@@ -11,7 +28,7 @@ export default function Nav({ active }) {
           <li
             key={p.id}
             className={`nav__item ${i === active ? 'is-active' : ''}`}
-            onClick={() => document.querySelector(`[data-page="${p.id}"]`)?.scrollIntoView({ behavior: 'smooth' })}
+            onClick={() => go(p.id)}
           >
             <span className="nav__item__num">{p.num}</span>
             <span className="nav__item__label">{p.label}</span>

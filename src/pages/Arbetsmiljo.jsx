@@ -2,19 +2,19 @@ import PageHead from '../components/PageHead.jsx';
 
 export default function Arbetsmiljo() {
   return (
-    <section className="page" data-page="arbetsmiljo" data-screen-label="02 Arbetsmiljö">
+    <section className="page" data-page="arbetsmiljo" data-screen-label="03 Arbetsmiljö">
       <PageHead
-        num="02"
+        num="03"
         title="Arbetsmiljö &"
         titleEm="riskbedömning"
-        eyebrow="KAP. 2"
+        eyebrow="KAP. 3"
         readTime="12 min"
         lede="Så snart du har meddelat din graviditet är arbetsgivaren skyldig att göra en individuell, skriftlig riskbedömning av just din tjänstgöring. Bedömningen ska omfatta fysiska, kemiska, biologiska och psykosociala faktorer — och den ska leda till konkreta åtgärder enligt en bestämd prioritetsordning."
       />
 
       {/* 2.1 Lagstöd */}
       <div className="grid">
-        <div className="grid__label"><strong>2.1</strong>Rättsligt fundament</div>
+        <div className="grid__label"><strong>3.1</strong>Rättsligt fundament</div>
         <div className="section reveal">
           <div className="section__kicker">Regelverket</div>
           <h3 className="section__h">AFS 2023:2 kap 7 — ny struktur sedan 1 januari 2025</h3>
@@ -35,7 +35,7 @@ export default function Arbetsmiljo() {
 
       {/* 2.2 Åtgärdstrappan */}
       <div className="grid">
-        <div className="grid__label"><strong>2.2</strong>Åtgärdstrappan</div>
+        <div className="grid__label"><strong>3.2</strong>Åtgärdstrappan</div>
         <div className="section reveal">
           <div className="section__kicker">§ 7 AFS 2023:2 kap 7</div>
           <h3 className="section__h">Fyra steg i tvingande ordning</h3>
@@ -69,7 +69,7 @@ export default function Arbetsmiljo() {
 
       {/* 2.3 Risker — biologiska */}
       <div className="grid">
-        <div className="grid__label"><strong>2.3</strong>Biologiska risker</div>
+        <div className="grid__label"><strong>3.3</strong>Biologiska risker</div>
         <div className="section reveal">
           <div className="section__kicker">Smittämnen i riskklass 2–4</div>
           <h3 className="section__h">Smittor som måste bedömas individuellt</h3>
@@ -119,7 +119,7 @@ export default function Arbetsmiljo() {
 
       {/* 2.4 Strålning */}
       <div className="grid">
-        <div className="grid__label"><strong>2.4</strong>Joniserande strålning</div>
+        <div className="grid__label"><strong>3.4</strong>Joniserande strålning</div>
         <div className="section reveal">
           <div className="section__kicker">Strålskyddslagen 4 kap 7–11 §§</div>
           <h3 className="section__h">Läkarens starkaste skydd</h3>
@@ -134,7 +134,7 @@ export default function Arbetsmiljo() {
 
       {/* 2.5 Kemiska och fysiska risker */}
       <div className="grid">
-        <div className="grid__label"><strong>2.5</strong>Kemiska och fysiska</div>
+        <div className="grid__label"><strong>3.5</strong>Kemiska och fysiska</div>
         <div className="section reveal">
           <div className="section__kicker">Läkemedel, gaser och belastning</div>
           <ol className="list-num">
@@ -180,7 +180,7 @@ export default function Arbetsmiljo() {
 
       {/* 2.6 Stockholms-avtalet om jourbefrielse */}
       <div className="grid">
-        <div className="grid__label"><strong>2.6</strong>Jourbefrielse</div>
+        <div className="grid__label"><strong>3.6</strong>Jourbefrielse</div>
         <div className="section reveal">
           <div className="section__kicker">Lokalt avtal Region Stockholm</div>
           <h3 className="section__h">Rätten att befrias från jour från dag ett</h3>
@@ -200,7 +200,7 @@ export default function Arbetsmiljo() {
 
       {/* 2.7 Process */}
       <div className="grid">
-        <div className="grid__label"><strong>2.7</strong>Processen steg för steg</div>
+        <div className="grid__label"><strong>3.7</strong>Processen steg för steg</div>
         <div className="section reveal">
           <div className="section__kicker">Från anmälan till uppföljning</div>
           <div className="rows">
@@ -257,7 +257,7 @@ export default function Arbetsmiljo() {
 
       {/* 2.8 Eskalering */}
       <div className="grid">
-        <div className="grid__label"><strong>2.8</strong>När processen brakar samman</div>
+        <div className="grid__label"><strong>3.8</strong>När processen brakar samman</div>
         <div className="section reveal">
           <div className="section__kicker">Eskaleringskedjan</div>
           <h3 className="section__h">Från påminnelse till skyddsstopp</h3>
@@ -314,7 +314,7 @@ export default function Arbetsmiljo() {
 
       {/* 2.9 ST/AT/BT */}
       <div className="grid">
-        <div className="grid__label"><strong>2.9</strong>ST, AT och BT</div>
+        <div className="grid__label"><strong>3.9</strong>ST, AT och BT</div>
         <div className="section reveal">
           <div className="section__kicker">Specifik problematik för läkare under utbildning</div>
           <h3 className="section__h">Varje ny placering är en ny riskbedömning</h3>
@@ -335,7 +335,7 @@ export default function Arbetsmiljo() {
 
       {/* 2.10 Gråzoner */}
       <div className="grid">
-        <div className="grid__label"><strong>2.10</strong>Gråzoner</div>
+        <div className="grid__label"><strong>3.10</strong>Gråzoner</div>
         <div className="section reveal">
           <div className="section__kicker">Tolkningsfrågor</div>
           <h3 className="section__h">Där evidens, försiktighet och praxis kolliderar</h3>

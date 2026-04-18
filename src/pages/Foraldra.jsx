@@ -2,19 +2,19 @@ import PageHead from '../components/PageHead.jsx';
 
 export default function Foraldra() {
   return (
-    <section className="page" data-page="foraldraledighet" data-screen-label="03 Föräldraledighet">
+    <section className="page" data-page="foraldraledighet" data-screen-label="04 Föräldraledighet">
       <PageHead
-        num="03"
+        num="04"
         title="Föräldra-"
         titleEm="ledighet"
-        eyebrow="KAP. 3"
+        eyebrow="KAP. 4"
         readTime="10 min"
         lede="Rätten till ledighet styrs av föräldraledighetslagen (SFS 1995:584) och socialförsäkringsbalken. Den ekonomiska utfyllnaden ovanpå Försäkringskassan styrs av kollektivavtalet AB 25 (§ 29). För dig som läkare i Region Stockholm innebär kombinationen omkring 90 % av ordinarie lön under merparten av ledigheten — men också tidigare anmälningstider och strikta regler för ST-tjänstgöringen."
       />
 
-      {/* 3.1 Rättsligt fundament */}
+      {/* 4.1 Rättsligt fundament */}
       <div className="grid">
-        <div className="grid__label"><strong>3.1</strong>Rättsligt fundament</div>
+        <div className="grid__label"><strong>4.1</strong>Rättsligt fundament</div>
         <div className="section reveal">
           <div className="section__kicker">Tre regelverk i samspel</div>
           <h3 className="section__h">Lag, försäkring och kollektivavtal</h3>
@@ -33,9 +33,9 @@ export default function Foraldra() {
         </div>
       </div>
 
-      {/* 3.2 Ledighetsformer */}
+      {/* 4.2 Ledighetsformer */}
       <div className="grid">
-        <div className="grid__label"><strong>3.2</strong>Ledighetsformer</div>
+        <div className="grid__label"><strong>4.2</strong>Ledighetsformer</div>
         <div className="section reveal">
           <div className="section__kicker">Sju distinkta ledighetsrättigheter</div>
           <h3 className="section__h">Rätt till ledighet — med eller utan föräldrapenning</h3>
@@ -93,9 +93,9 @@ export default function Foraldra() {
         </div>
       </div>
 
-      {/* 3.4 Försäkringskassan */}
+      {/* 4.3 Försäkringskassan */}
       <div className="grid">
-        <div className="grid__label"><strong>3.4</strong>Försäkringskassan</div>
+        <div className="grid__label"><strong>4.3</strong>Försäkringskassan</div>
         <div className="section reveal">
           <div className="section__kicker">Statlig grund — socialförsäkringsbalken</div>
           <h3 className="section__h">480 dagar — och fallgroparna</h3>
@@ -144,9 +144,9 @@ export default function Foraldra() {
         </div>
       </div>
 
-      {/* 3.5 Kollektivavtalet — föräldrapenningtillägg och föräldralön */}
+      {/* 4.4 Kollektivavtalet — föräldrapenningtillägg och föräldralön */}
       <div className="grid">
-        <div className="grid__label"><strong>3.5</strong>AB 25 § 29</div>
+        <div className="grid__label"><strong>4.4</strong>AB 25 § 29</div>
         <div className="section reveal">
           <div className="section__kicker">Arbetsgivarens utfyllnad</div>
           <h3 className="section__h">Föräldrapenningtillägg och föräldralön</h3>
@@ -173,9 +173,9 @@ export default function Foraldra() {
         </div>
       </div>
 
-      {/* 3.6 Anmälan och process */}
+      {/* 4.5 Anmälan och process */}
       <div className="grid">
-        <div className="grid__label"><strong>3.6</strong>Anmälan & samråd</div>
+        <div className="grid__label"><strong>4.5</strong>Anmälan & samråd</div>
         <div className="section reveal">
           <div className="section__kicker">Formell process</div>
           <h3 className="section__h">Tre månader — inte två</h3>
@@ -218,9 +218,9 @@ export default function Foraldra() {
         </div>
       </div>
 
-      {/* 3.7 ST, BT, randning */}
+      {/* 4.6 ST, BT, randning */}
       <div className="grid">
-        <div className="grid__label"><strong>3.7</strong>ST, BT & randning</div>
+        <div className="grid__label"><strong>4.6</strong>ST, BT & randning</div>
         <div className="section reveal">
           <div className="section__kicker">Socialstyrelsens föreskrifter</div>
           <h3 className="section__h">Föräldraledighet får inte tillgodoräknas</h3>
@@ -239,9 +239,9 @@ export default function Foraldra() {
         </div>
       </div>
 
-      {/* 3.8 Pension, semester och försäkringar */}
+      {/* 4.7 Pension, semester och försäkringar */}
       <div className="grid">
-        <div className="grid__label"><strong>3.8</strong>Pension & semester</div>
+        <div className="grid__label"><strong>4.7</strong>Pension & semester</div>
         <div className="section reveal">
           <div className="section__kicker">Långsiktigt skydd</div>
           <ol className="list-num">
@@ -279,9 +279,9 @@ export default function Foraldra() {
         </div>
       </div>
 
-      {/* 3.9 Återgång och delledighet */}
+      {/* 4.8 Återgång och delledighet */}
       <div className="grid">
-        <div className="grid__label"><strong>3.9</strong>Återgång</div>
+        <div className="grid__label"><strong>4.8</strong>Återgång</div>
         <div className="section reveal">
           <div className="section__kicker">Från ledighet till tjänst</div>
           <h3 className="section__h">Rätten att få tillbaka sitt arbete</h3>
@@ -300,9 +300,9 @@ export default function Foraldra() {
         </div>
       </div>
 
-      {/* 3.10 Lokala variationer */}
+      {/* 4.9 Lokala variationer */}
       <div className="grid">
-        <div className="grid__label"><strong>3.10</strong>Lokala variationer</div>
+        <div className="grid__label"><strong>4.9</strong>Lokala variationer</div>
         <div className="section reveal">
           <div className="section__kicker">Region Stockholms förvaltningar</div>
           <h3 className="section__h">Huvudsakligen harmoniserat — med undantag</h3>
@@ -356,9 +356,9 @@ export default function Foraldra() {
         </div>
       </div>
 
-      {/* 3.11 Tvister */}
+      {/* 4.10 Tvister */}
       <div className="grid">
-        <div className="grid__label"><strong>3.11</strong>Tvister</div>
+        <div className="grid__label"><strong>4.10</strong>Tvister</div>
         <div className="section reveal">
           <div className="section__kicker">Två separata spår</div>
           <h3 className="section__h">Försäkringskassan respektive arbetsgivaren</h3>

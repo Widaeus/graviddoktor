@@ -42,17 +42,17 @@ function ContactList({ items }) {
 
 export default function Kontakt() {
   return (
-    <section className="page" data-page="kontakt" data-screen-label="06 Kontakt">
+    <section className="page" data-page="kontakt" data-screen-label="07 Kontakt">
       <PageHead
-        num="06"
+        num="07"
         title="Kontakt &"
         titleEm="stöd"
-        eyebrow="KAP. 6"
+        eyebrow="KAP. 7"
         lede="Vem du vänder dig till beror på vilken typ av fråga du har. Fackligt stöd för arbetsrätt, skyddsombud för arbetsmiljö, Försäkringskassan för ersättning, CAMM för oberoende medicinsk bedömning."
       />
 
       <div className="grid">
-        <div className="grid__label"><strong>6.1</strong>Fackligt stöd</div>
+        <div className="grid__label"><strong>7.1</strong>Fackligt stöd</div>
         <div className="section reveal">
           <div className="section__kicker">Läkarförbundet och lokala föreningar</div>
           <ContactList items={FACKLIGT} />
@@ -60,7 +60,7 @@ export default function Kontakt() {
       </div>
 
       <div className="grid">
-        <div className="grid__label"><strong>6.2</strong>Arbetsplats</div>
+        <div className="grid__label"><strong>7.2</strong>Arbetsplats</div>
         <div className="section reveal">
           <div className="section__kicker">Lokala kanaler</div>
           <ContactList items={ARBETSPLATS} />
@@ -68,7 +68,7 @@ export default function Kontakt() {
       </div>
 
       <div className="grid">
-        <div className="grid__label"><strong>6.3</strong>Myndigheter</div>
+        <div className="grid__label"><strong>7.3</strong>Myndigheter</div>
         <div className="section reveal">
           <div className="section__kicker">Statliga kanaler</div>
           <ContactList items={MYNDIGHETER} />
@@ -76,7 +76,7 @@ export default function Kontakt() {
       </div>
 
       <div className="grid">
-        <div className="grid__label"><strong>6.4</strong>Feedback</div>
+        <div className="grid__label"><strong>7.4</strong>Feedback</div>
         <div className="section reveal">
           <div className="feedback">
             <div className="feedback__tag">Rättelser</div>

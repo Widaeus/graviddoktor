@@ -26,7 +26,7 @@ export default function Arbetsmiljo() {
             <div className="callout__tag">Viktigt</div>
             <div>
               <h5>Hänvisningar till AFS 2007:5 är obsoleta</h5>
-              <p>Äldre lokala PM, checklistor och riktlinjer på Karolinska, SÖS, Danderyd, SLSO och SÄS hänvisar ofta fortfarande till AFS 2007:5. Substansen i dessa dokument kan vara korrekt, men den formella referensen ska från 2025 vara <strong>AFS 2023:2 kap 7</strong> för gravida och ammande, och <strong>AFS 2023:15</strong> för medicinska kontroller.</p>
+              <p>Äldre lokala PM, checklistor och riktlinjer på Karolinska, SÖS, Danderyd, SLSO, Södertälje och S:t Erik hänvisar ofta fortfarande till AFS 2007:5. Substansen i dessa dokument kan vara korrekt, men den formella referensen ska från 2025 vara <strong>AFS 2023:2 kap 7</strong> för gravida och ammande, och <strong>AFS 2023:15</strong> för medicinska kontroller.</p>
             </div>
           </div>
         </div>
@@ -126,7 +126,7 @@ export default function Arbetsmiljo() {
             <p className="lead">Strålskyddslagen ger en asymmetriskt stark rätt. Efter din anmälan ska arbetet planeras så att fostrets effektiva dos <strong>inte förväntas överstiga 1 mSv</strong> under återstoden av graviditeten.</p>
             <p><strong>4 kap 9 § SSL</strong> ger dig en nästan ovillkorlig rätt: på egen begäran ska arbetsgivaren erbjuda arbetsuppgifter utan exponering utöver allmänhetens nivå. Det betyder att en gravid interventionell kardiolog, radiolog, ortoped med C-båge, urolog eller kärlkirurg kan begära att slippa genomlysningsmomenten även om historisk badgedos ligger långt under gränsen.</p>
             <p>1 mSv är ett <em>tak</em>, inte ett riktvärde — ALARA-principen gäller även under tröskeln. Dessutom är det <strong>absolut förbjudet</strong> enligt 4 kap 10 § att gravid eller ammande deltar i radiologiska nödsituationer.</p>
-            <p>MR-kamerans statiska magnetfält har inte i kontrollerade studier visat fosterskada, men Strålsäkerhetsmyndigheten rekommenderar försiktighet: gravid personal bör inte vistas i magnetrummet under pågående skanning. Granskning av bilder utanför undersökningsrummet är oproblematiskt.</p>
+            <p>MR-kamerans statiska magnetfält har inte i kontrollerade studier visat fosterskada. Enligt försiktighetsprincipen — bred praxis i svensk vård — bör gravid personal ändå undvika att vistas i magnetrummet under pågående skanning. Granskning av bilder utanför undersökningsrummet är oproblematiskt.</p>
           </div>
         </div>
       </div>
@@ -139,8 +139,8 @@ export default function Arbetsmiljo() {
           <ol className="list-num">
             <li>
               <div>
-                <h4>Cytostatika (AFS 2005:5)</h4>
-                <p>Gravid läkare ska inte bereda eller administrera cytostatika, inte hantera utsöndring (urin, kräkning, avföring) från patient behandlad senaste 48–72 h, och inte närvara vid extravasationer. Modern beredning i slutna system på sjukhusapotek minskar exponeringen, men klinisk patientkontakt kräver uppmärksamhet.</p>
+                <h4>Cytostatika (AFS 2023:10 kap 10)</h4>
+                <p>Sedan 1 januari 2025 återfinns reglerna om cytostatika och andra läkemedel med bestående toxisk effekt i AFS 2023:10 kapitel 10 (avdelning V, kemiska riskkällor) — AFS 2005:5 är upphävd. Gravid läkare ska inte bereda eller administrera cytostatika, inte hantera utsöndring (urin, kräkning, avföring) från patient behandlad senaste 48–72 h, och inte närvara vid extravasationer. Modern beredning i slutna system på sjukhusapotek minskar exponeringen, men klinisk patientkontakt kräver uppmärksamhet.</p>
               </div>
             </li>
             <li>
@@ -285,7 +285,7 @@ export default function Arbetsmiljo() {
             <li>
               <div>
                 <h4>6 kap 6a § AML — skriftlig begäran om åtgärd</h4>
-                <p>Skyddsombudet begär skriftligen att arbetsgivaren vidtar specifik åtgärd. Arbetsgivaren ska utan dröjsmål (rimligen 14 dagar) bekräfta mottagandet och lämna besked. Ofta det mest effektiva eskaleringssteget.</p>
+                <p>Skyddsombudet begär skriftligen att arbetsgivaren vidtar specifik åtgärd. Arbetsgivaren ska utan dröjsmål bekräfta mottagandet och lämna besked — i praktiken normalt inom ett par veckor. Ofta det mest effektiva eskaleringssteget.</p>
               </div>
             </li>
             <li>
@@ -305,7 +305,7 @@ export default function Arbetsmiljo() {
             <div className="callout__tag">Parallell kanal</div>
             <div>
               <h5>CAMM kan kontaktas utan arbetsgivarens vetskap</h5>
-              <p>Centrum för arbets- och miljömedicin (Solnavägen 4, tel 08-123 372 22) erbjuder kostnadsfri rådgivning till gravida skrivna i Region Stockholm. Remissfritt och konfidentiellt. Parallell bedömning kan vara värdefull när du känner att lokal process inte räcker.</p>
+              <p>Centrum för arbets- och miljömedicin (Solnavägen 4, plan 10, 113 65 Stockholm, tel 08-123 372 22) erbjuder kostnadsfri rådgivning till gravida skrivna i Region Stockholm. Remissfritt och konfidentiellt. Parallell bedömning kan vara värdefull när du känner att lokal process inte räcker.</p>
             </div>
           </div>
         </div>

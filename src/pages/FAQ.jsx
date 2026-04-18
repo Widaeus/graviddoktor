@@ -23,8 +23,8 @@ const FAQ_ITEMS = [
     a: "Föräldraledighetslagen kräver två månaders varsel. AB 25 § 29 skärper detta för region- och kommunsektorn till minst tre månader. För ledighet under juni–augusti får arbetsgivaren kräva anmälan senast 1 april, om arbetsgivaren framställt det kravet senast 15 mars. För läkare med långa schemacykler rekommenderas tidigare anmälan — gärna vid halva graviditeten."
   },
   {
-    q: "Vilken ersättning får jag vid arbetsförbud (avstängning) p.g.a. arbetsmiljörisk?",
-    a: "Du får graviditetspenning från Försäkringskassan — 80 % av SGI upp till taket (10 prisbasbelopp) — för hela den period arbetsförbudet gäller. För lönedelar över taket kan arbetsgivaren enligt AB 25 vara skyldig att betala mellanskillnad. Enligt en Arbetsdomstolsdom hösten 2025 ska denna kompensation även omfatta förlorad jour- och beredskapsersättning retroaktivt för perioden augusti 2015–augusti 2025."
+    q: "Vilken ersättning får jag vid arbetsförbud p.g.a. arbetsmiljörisk?",
+    a: "Du får graviditetspenning från Försäkringskassan — 80 % av SGI upp till taket (10 prisbasbelopp) — för hela den period arbetsförbudet gäller. För lönedelar över taket kan arbetsgivaren enligt AB 25 vara skyldig att betala mellanskillnad. Enligt Arbetsdomstolens dom AD 2025 nr 57 ska denna kompensation även omfatta förlorad jour- och beredskapsersättning retroaktivt för perioden 19 augusti 2015–19 augusti 2025."
   },
   {
     q: "Får min lön eller befordran påverkas av att jag är föräldraledig?",
@@ -32,7 +32,7 @@ const FAQ_ITEMS = [
   },
   {
     q: "Vad gör jag om min chef vägrar göra en riskbedömning?",
-    a: "Kontakta omedelbart skyddsombudet. Skyddsombudet kan begära åtgärd skriftligen enligt 6 kap. 6a § arbetsmiljölagen — arbetsgivaren ska då utan dröjsmål (rimligen 14 dagar) lämna besked. Om adekvat svar uteblir hänskjuts ärendet till Arbetsmiljöverkets regionkontor i Solna. Dokumentera alla kontakter skriftligt. Parallellt kan CAMM ge en kostnadsfri oberoende bedömning."
+    a: "Kontakta omedelbart skyddsombudet. Skyddsombudet kan begära åtgärd skriftligen enligt 6 kap. 6a § arbetsmiljölagen — arbetsgivaren ska då utan dröjsmål lämna besked, i praktiken normalt inom ett par veckor. Om adekvat svar uteblir hänskjuts ärendet till Arbetsmiljöverkets regionkontor i Solna. Dokumentera alla kontakter skriftligt. Parallellt kan CAMM ge en kostnadsfri oberoende bedömning."
   },
   {
     q: "Hur mycket semester tjänar jag in under föräldraledigheten?",
@@ -64,7 +64,7 @@ const FAQ_ITEMS = [
   },
   {
     q: "Vad är skillnaden mellan föräldrapenningtillägg och föräldralön?",
-    a: "Två separata tillägg enligt AB 25 § 29, båda förutsätter minst 180 sammanhängande kalenderdagars anställning. Föräldrapenningtillägget är 10 % av lönebortfallet under 180 dagar. Föräldralönen är mellanskillnadsersättning för lön över Försäkringskassans tak, under upp till 270 dagar, och förutsätter fast lön över 83,33 % av prisbasbeloppet per månad (≈ 49 300 kr/mån för 2026)."
+    a: "Två separata tillägg enligt AB 25 § 29, båda förutsätter minst 180 sammanhängande kalenderdagars anställning. Föräldrapenningtillägget är 10 % av lönebortfallet under 180 dagar. Föräldralönen är mellanskillnadsersättning för lön över Försäkringskassans tak, under upp till 270 dagar, och förutsätter fast månadslön över tröskeln 10 prisbasbelopp / 12 (≈ 49 300 kr/mån för 2026)."
   },
   {
     q: "Kan jag ta VAB när min partner är sjuk och skulle ha varit hemma med barnet?",

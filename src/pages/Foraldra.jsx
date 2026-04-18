@@ -60,7 +60,7 @@ export default function Foraldra() {
             <li>
               <div>
                 <h4>Delledighet med föräldrapenning</h4>
-                <p>Rätt att förkorta arbetstiden med <strong>1/8, 1/4, 1/2 eller 3/4</strong> i takt med uttag av motsvarande föräldrapenning (87,5 %, 75 %, 50 % respektive 25 % arbete). Förläggningen ska ske i samråd — arbetsgivaren får inte ensidigt dela upp delledigheten mitt i arbetsdagen utan ditt samtycke.</p>
+                <p>Rätt att gå ned till <strong>7/8, 3/4, 1/2 eller 1/4</strong> av arbetstiden (87,5 %, 75 %, 50 % respektive 25 % arbete) i takt med uttag av motsvarande föräldrapenning. Förläggningen ska ske i samråd — arbetsgivaren får inte ensidigt dela upp delledigheten mitt i arbetsdagen utan ditt samtycke.</p>
               </div>
             </li>
             <li>
@@ -158,7 +158,7 @@ export default function Foraldra() {
           <div className="section__kicker">Statlig grund — socialförsäkringsbalken</div>
           <h3 className="section__h">480 dagar — och fallgroparna</h3>
           <div className="prose">
-            <p>Av 480 dagar per barn är <strong>390 dagar på sjukpenningnivå</strong> (cirka 80 % av SGI upp till 10 prisbasbelopp — för 2026 ≈ 593 000 kr/år, motsvarande ett tak kring 1 250 kr/dag) och <strong>90 dagar på lägstanivå</strong> om 180 kr/dag. Sedan 1 juli 2024 kan varje vårdnadshavare dessutom överlåta upp till 45 dagar till annan vuxen än andra vårdnadshavaren; ensam vårdnadshavare kan överlåta 90 dagar.</p>
+            <p>Av 480 dagar per barn är <strong>390 dagar på sjukpenningnivå</strong> (cirka 80 % av SGI upp till 10 prisbasbelopp — prisbasbeloppet 2026 är 59 200 kr, dvs. 10 pbb = 592 000 kr/år, motsvarande ett tak kring 1 260 kr/dag) och <strong>90 dagar på lägstanivå</strong> om 180 kr/dag. Sedan 1 juli 2024 kan varje vårdnadshavare dessutom överlåta upp till 45 dagar till annan vuxen än andra vårdnadshavaren; ensam vårdnadshavare kan överlåta 90 dagar.</p>
             <p><strong>240-dagarsregeln:</strong> full sjukpenningnivå förutsätter att du haft en ersättning över 180 kr/dag under minst 240 dagar i följd före beräknad förlossning. Om du inte uppfyller kravet — typiskt vid utlandstjänstgöring utan sammanhängande SGI, eller tidigt i karriären — utgår 250 kr/dag under de första 180 dagarna.</p>
             <p><strong>Regler från 1 april 2025:</strong> för att ta ut föräldrapenning för dagar du ändå inte skulle arbetat (t.ex. helger) krävs normalt uttag av samma omfattning dagen direkt före eller efter. Undantag finns för rotationsscheman med sammanhängande ledighet om minst fem dagar — relevant för akutjourskedjor och operationsveckor.</p>
           </div>
@@ -211,14 +211,14 @@ export default function Foraldra() {
           <div className="prose">
             <p className="lead">Ovanpå Försäkringskassans ersättning betalar Region Stockholm två separata tillägg via AB 25 § 29. Kvalifikationskravet är <strong>minst 180 sammanhängande kalenderdagars anställning</strong> innan ledigheten börjar — inte 356 dagar, inte 365 dagar.</p>
             <p><strong>Föräldrapenningtillägget</strong> lämnas i upp till 180 kalenderdagar per födsel och motsvarar 10 % av lönebortfallet. Det kan tas ut fram till barnet fyller 24 månader och förutsätter att du samtidigt tar ut föräldrapenning över grund- eller lägstanivå.</p>
-            <p><strong>Föräldralönen</strong> (utfyllnadslön) är en mellanskillnadsersättning för den del av lönen som ligger över Försäkringskassans tak. Den betalas i upp till <strong>270 kalenderdagar per födsel</strong> om din fasta kontanta lön överstiger 83,33 % av prisbasbeloppet per månad — för 2026 ungefär 49 300 kr/mån.</p>
+            <p><strong>Föräldralönen</strong> (utfyllnadslön) är en mellanskillnadsersättning för den del av lönen som ligger över Försäkringskassans tak. Den betalas i upp till <strong>270 kalenderdagar per födsel</strong> om din fasta kontanta månadslön överstiger tröskeln <strong>10 prisbasbelopp / 12</strong> — för 2026 cirka 49 300 kr/mån.</p>
             <p>Kombinationen av föräldrapenning, föräldrapenningtillägg och föräldralön ger typiskt cirka <strong>90 % av ordinarie månadslön</strong> under merparten av den sammanhängande ledigheten.</p>
           </div>
           <div className="callout">
             <div className="callout__tag">Räkneexempel</div>
             <div>
               <h5>Specialistläkare med 78 000 kr/mån, heltid</h5>
-              <p>Försäkringskassan betalar föräldrapenning på sjukpenningnivå upp till taket ≈ 37 500 kr/mån. Arbetsgivaren betalar föräldrapenningtillägg (10 % av lönebortfallet ≈ 4 000 kr/mån) under de första 180 dagarna och föräldralön (mellanskillnadsersättning för lön över taket ≈ 27 000 kr/mån) under upp till 270 dagar. Totalt ca 68 500 kr/mån brutto — ≈ 88 % av ordinarie lön — under ledighetens första halvår.</p>
+              <p>Försäkringskassan betalar föräldrapenning på sjukpenningnivå upp till taket ≈ 37 800 kr/mån. Arbetsgivaren betalar föräldrapenningtillägg (10 % av lönebortfallet ≈ 4 000 kr/mån) under de första 180 dagarna och föräldralön (mellanskillnadsersättning för lön över taket ≈ 26 000 kr/mån) under upp till 270 dagar. Totalt ca 67 800 kr/mån brutto — ≈ 87 % av ordinarie lön — under ledighetens första halvår.</p>
             </div>
           </div>
           <div className="callout callout--warn">
@@ -283,7 +283,7 @@ export default function Foraldra() {
           <div className="section__kicker">Socialstyrelsens föreskrifter</div>
           <h3 className="section__h">Föräldraledighet får inte tillgodoräknas</h3>
           <div className="prose">
-            <p className="lead">Enligt HSLF-FS 2021:8 ska ST innehålla minst <strong>60 månaders klinisk tjänstgöring under handledning</strong>, eller 5,5 år inklusive BT. Socialstyrelsen anger uttryckligen att föräldraledighet <strong>inte</strong> får räknas in i tjänsteförteckningen. Deltid är tillåten, men tjänstgöringstiden förlängs proportionellt så att den motsvarar heltid.</p>
+            <p className="lead">Enligt HSLF-FS 2021:8 ska ST innehålla minst <strong>60 månaders klinisk tjänstgöring under handledning</strong>, ovanpå BT om minst 6 månader — det lagstadgade minimum är alltså 66 månader (5,5 år). I praktiken är BT oftast 12–24 månader, vilket gör vägen från examen till specialistbevis längre. Socialstyrelsen anger uttryckligen att föräldraledighet <strong>inte</strong> får räknas in i tjänsteförteckningen. Deltid är tillåten, men tjänstgöringstiden förlängs proportionellt så att den motsvarar heltid.</p>
             <p>I praktiken skjuts specialistbeviset fram med motsvarande ledighetstid. Undantag finns om alternativ utbildningsaktivitet — auskultation, kurs, simulering, senarelagd randning post partum — ersätter den kliniska placeringen på ett sätt som uppfyller delmål. Sådana överenskommelser måste dokumenteras skriftligt av verksamhetschef och studierektor <em>innan</em> placeringen förskjuts.</p>
             <p>Lönerevision, kompetensutveckling och befordran får inte påverkas negativt. Arbetsgivaren är skyldig att inkludera dig i den årliga lönerevisionen på samma grunder som aktivt tjänstgörande. Du har rätt till lönesamtal även under pågående ledighet.</p>
           </div>
@@ -318,7 +318,7 @@ export default function Foraldra() {
             <li>
               <div>
                 <h4>Kollektivavtalade försäkringar</h4>
-                <p>AGS-KL (sjukförsäkring), TFA-KL (arbetsskada) och TGL-KL (tjänstegrupplivförsäkring) via Afa Försäkring löper normalt vidare under föräldraledighet. Stora ekonomiska beslut vid långa frånvaroperioder: kontrollera exakta villkor hos Afa/KPA och HR — viss karens kan påverka enskilda tilläggsskydd.</p>
+                <p>AGS-KL (sjukförsäkring), TFA-KL (arbetsskada) och TGL-KL (tjänstegrupplivförsäkring) via Afa Försäkring löper normalt vidare under föräldraledighet. Inför större ekonomiska beslut eller långa frånvaroperioder: kontrollera exakta villkor hos Afa/KPA och HR — viss karens kan påverka enskilda tilläggsskydd.</p>
               </div>
             </li>
             <li>

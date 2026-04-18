@@ -898,54 +898,6 @@ a.tile { color: inherit; text-decoration: none; }
   padding-top: 3px;
 }
 
-/* ---------- timeline (föräldraledighet) ---------- */
-.timeline {
-  position: relative;
-  padding-left: 48px;
-}
-.timeline::before {
-  content: "";
-  position: absolute;
-  left: 6px; top: 10px; bottom: 10px;
-  width: 1px;
-  background: var(--rule);
-}
-.tl__item {
-  position: relative;
-  padding: 0 0 36px 0;
-}
-.tl__item:last-child { padding-bottom: 0; }
-.tl__dot {
-  position: absolute;
-  left: -48px; top: 6px;
-  width: 13px; height: 13px;
-  border-radius: 50%;
-  background: #fff;
-  border: 2px solid var(--blue);
-}
-.tl__dot.filled { background: var(--blue); }
-.tl__w {
-  font-family: var(--mono);
-  font-size: 10px;
-  letter-spacing: 0.16em;
-  text-transform: uppercase;
-  color: var(--blue);
-  margin-bottom: 6px;
-}
-.tl__t {
-  font-family: var(--serif);
-  font-size: 20px;
-  letter-spacing: -0.01em;
-  margin-bottom: 6px;
-  font-weight: 400;
-}
-.tl__d {
-  font-size: 14px;
-  line-height: 1.55;
-  color: var(--ink-2);
-  max-width: 56ch;
-}
-
 /* ---------- footer (end of site) ---------- */
 .end {
   padding: 60px 72px;
@@ -1413,13 +1365,6 @@ body.density-compact .page__num { font-size: 72px; }
   .contact__card { padding: 22px; }
   .contact__card h5 { font-size: 20px; }
   .contact__row { font-size: 13px; padding: 10px 0; }
-
-  /* timeline: tighter */
-  .timeline { padding-left: 28px; }
-  .timeline::before { left: 4px; }
-  .tl__dot { left: -28px; width: 11px; height: 11px; }
-  .tl__t { font-size: 17px; }
-  .tl__d { font-size: 13.5px; max-width: none; }
 
   /* FAQ */
   .faq__q { gap: 14px; }

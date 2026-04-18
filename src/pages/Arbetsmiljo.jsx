@@ -8,6 +8,7 @@ export default function Arbetsmiljo() {
         title="Arbetsmiljö &"
         titleEm="riskbedömning"
         eyebrow="KAP. 2"
+        readTime="12 min"
         lede="Så snart du har meddelat din graviditet är arbetsgivaren skyldig att göra en individuell, skriftlig riskbedömning av just din tjänstgöring. Bedömningen ska omfatta fysiska, kemiska, biologiska och psykosociala faktorer — och den ska leda till konkreta åtgärder enligt en bestämd prioritetsordning."
       />
 

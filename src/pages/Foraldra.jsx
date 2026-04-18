@@ -8,6 +8,7 @@ export default function Foraldra() {
         title="Föräldra-"
         titleEm="ledighet"
         eyebrow="KAP. 3"
+        readTime="10 min"
         lede="Rätten till ledighet styrs av föräldraledighetslagen (SFS 1995:584) och socialförsäkringsbalken. Den ekonomiska utfyllnaden ovanpå Försäkringskassan styrs av kollektivavtalet AB 25 (§ 29). För dig som läkare i Region Stockholm innebär kombinationen omkring 90 % av ordinarie lön under merparten av ledigheten — men också tidigare anmälningstider och strikta regler för ST-tjänstgöringen."
       />
 

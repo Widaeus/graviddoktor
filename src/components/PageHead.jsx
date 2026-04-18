@@ -1,4 +1,4 @@
-export default function PageHead({ num, title, titleEm, lede, eyebrow, ed }) {
+export default function PageHead({ num, title, titleEm, lede, eyebrow, ed, readTime }) {
   return (
     <header className="page__head reveal">
       <div className="page__num">{num}</div>
@@ -12,7 +12,7 @@ export default function PageHead({ num, title, titleEm, lede, eyebrow, ed }) {
       <div className="page__meta">
         <span>{eyebrow}</span>
         <span><strong>{ed || 'Ed. 2026/I'}</strong></span>
-        <span>läs: 6 min</span>
+        {readTime ? <span>läs: {readTime}</span> : null}
       </div>
     </header>
   );

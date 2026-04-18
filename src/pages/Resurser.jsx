@@ -15,7 +15,7 @@ const RESOURCES = [
     d: "Arbetsmiljöverkets föreskrifter om individuell riskbedömning och åtgärdstrappan. Ersätter AFS 2007:5 sedan 1 januari 2025.",
     host: "av.se",
     cta: "Öppna föreskrift",
-    url: "https://www.av.se/arbetsmiljoarbete-och-inspektioner/publikationer/foreskrifter/planering-och-organisering-av-arbetsmiljoarbetet-afs-20232-foreskrifter/",
+    url: "https://www.av.se/arbetsmiljoarbete-och-inspektioner/publikationer/foreskrifter/afs-20232/",
   },
   {
     tag: "Lag",

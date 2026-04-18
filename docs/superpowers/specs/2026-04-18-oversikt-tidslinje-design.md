@@ -127,7 +127,7 @@ Kronologisk ordning, utan undantag. Varje nod har: tidsetikett (mono/uppercase/b
 
 ### 5.2 Mobil (≤ 768 px)
 
-- Hela fas-bandet döljs; fasen visas i stället som **inline-etikett** ovanför första noden i varje fas (t.ex. `— Ledighet —`).
+- Hela fas-bandet (`.htl__phase-band`) döljs på mobil. Faserna markeras i stället som smala fas-etiketter som visas vid *fas-övergångarna* mellan noderna: mono, 9 px, 0.18em letter-spacing, uppercase, i respektive fas-färg (warm för Ledighet, blue-deep för Återgång). Konkret: `— LEDIGHET —` ovanför nod 5 (Förlossning), `— ÅTERGÅNG —` ovanför nod 9 (Återgång). Ingen fas-etikett före nod 1 — användaren befinner sig redan i Graviditet-fasen.
 - Noderna **stackar vertikalt**. Layouten är likvärdig med hur `.timeline` i gamla 3.3 renderade: vertikal 1 px linje till vänster, dot till vänster om noden, innehåll till höger.
 - Scrollcontainern tappar sin horisontella karaktär — `overflow-x: visible` under brytpunkten, `display: flex; flex-direction: column`.
 - Twin-par (4A/4B) stackar också vertikalt utan visuell koppling utöver att de delar identisk tidsetikett.
@@ -136,15 +136,16 @@ Kronologisk ordning, utan undantag. Varje nod har: tidsetikett (mono/uppercase/b
 
 ### 5.3 CSS-namnrymd
 
-Nya CSS-klasser prefixeras **`.htl-*`** (horizontal timeline) för att inte krocka med den borttagna `.tl__*`-familjen:
+Nya CSS-klasser följer samma BEM-lika stil som övriga sajten (jfr `.callout__tag`, `.callout--warn`, `.row__wk`). Root-prefix **`.htl`** (horizontal timeline) för att inte krocka med den borttagna `.tl__*`-familjen:
 
-- `.htl` (container / grid)
-- `.htl__phase-band`, `.htl__phase-seg` (+ modifierare `.grav`, `.led`, `.ret`)
-- `.htl__scroll`
+- `.htl` — root/container
+- `.htl__phase-band`, `.htl__phase-seg`, `.htl__phase-seg--grav`, `.htl__phase-seg--led`, `.htl__phase-seg--ret`
+- `.htl__scroll` — horisontell scrollcontainer (desktop) / vertikal stack (mobil)
 - `.htl__item`, `.htl__dot`, `.htl__w`, `.htl__t`, `.htl__d`, `.htl__acts`
-- `.htl__twin` (4A/4B-modifierare)
+- `.htl__item--twin` (för 4A/4B)
 - `.htl__legend`, `.htl__legend-item`, `.htl__legend-dot`
-- `.act__row`, `.act__tag`, `.act__tag--bor`, `.act__tag--kan` (delbara om vi återanvänder någon annanstans)
+- `.htl__scroll-hint`
+- `.act__row`, `.act__tag`, `.act__tag--bor`, `.act__tag--kan` (delbara — kan återanvändas om annat kapitel senare får bör/kan-taggar)
 
 Befintliga CSS-variabler `--blue`, `--blue-wash`, `--warm`, `--warm-wash`, `--rule` m.fl. återanvänds.
 

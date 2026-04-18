@@ -20,7 +20,7 @@ export default function Hero() {
 
       <div className="hero__top">
         <span><strong>Gravid Doktor</strong> — En guide för läkare i Stockholm</span>
-        <span><span>Senast rev. 2026-04-12</span></span>
+        <span><span>Senast rev. 2026-04-18</span></span>
       </div>
 
       <div className="hero__body">

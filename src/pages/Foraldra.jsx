@@ -72,7 +72,7 @@ export default function Foraldra() {
             <li>
               <div>
                 <h4>Tillfällig föräldrapenning (VAB)</h4>
-                <p>Upp till <strong>120 dagar per barn och år</strong> vid barnets sjukdom eller när ordinarie vårdare är sjuk. Anmäls till Försäkringskassan senast dag 1.</p>
+                <p>Upp till <strong>120 dagar per barn och år</strong> vid barnets sjukdom. VAB kan även tas ut av den ena föräldern när den andra — som normalt skulle ha vårdat barnet — är sjukskriven; huvudregeln är att detta gäller från att barnet är 8 månader. Anmäls till Försäkringskassan från dag 1.</p>
               </div>
             </li>
             <li>
@@ -211,7 +211,7 @@ export default function Foraldra() {
           <div className="prose">
             <p className="lead">Ovanpå Försäkringskassans ersättning betalar Region Stockholm två separata tillägg via AB 25 § 29. Kvalifikationskravet är <strong>minst 180 sammanhängande kalenderdagars anställning</strong> innan ledigheten börjar — inte 356 dagar, inte 365 dagar.</p>
             <p><strong>Föräldrapenningtillägget</strong> lämnas i upp till 180 kalenderdagar per födsel och motsvarar 10 % av lönebortfallet. Det kan tas ut fram till barnet fyller 24 månader och förutsätter att du samtidigt tar ut föräldrapenning över grund- eller lägstanivå.</p>
-            <p><strong>Föräldralönen</strong> (utfyllnadslön) är en mellanskillnadsersättning för den del av lönen som ligger över Försäkringskassans tak. Den betalas i upp till <strong>270 kalenderdagar per födsel</strong> om din fasta kontanta lön överstiger 83,33 % av prisbasbeloppet per månad — för 2026 ungefär 49 300 kr/mån. För läkare är tröskeln i praktiken alltid passerad.</p>
+            <p><strong>Föräldralönen</strong> (utfyllnadslön) är en mellanskillnadsersättning för den del av lönen som ligger över Försäkringskassans tak. Den betalas i upp till <strong>270 kalenderdagar per födsel</strong> om din fasta kontanta lön överstiger 83,33 % av prisbasbeloppet per månad — för 2026 ungefär 49 300 kr/mån.</p>
             <p>Kombinationen av föräldrapenning, föräldrapenningtillägg och föräldralön ger typiskt cirka <strong>90 % av ordinarie månadslön</strong> under merparten av den sammanhängande ledigheten.</p>
           </div>
           <div className="callout">

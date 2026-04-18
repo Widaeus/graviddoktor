@@ -5,7 +5,6 @@ import End from './components/End.jsx';
 import Hero from './pages/Hero.jsx';
 import Arbetsmiljo from './pages/Arbetsmiljo.jsx';
 import Foraldra from './pages/Foraldra.jsx';
-import Avstangning from './pages/Avstangning.jsx';
 import FAQ from './pages/FAQ.jsx';
 import Resurser from './pages/Resurser.jsx';
 import Kontakt from './pages/Kontakt.jsx';
@@ -23,7 +22,6 @@ export default function App() {
         <Hero />
         <Arbetsmiljo />
         <Foraldra />
-        <Avstangning />
         <FAQ />
         <Resurser />
         <Kontakt />

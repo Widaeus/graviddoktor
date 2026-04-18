@@ -816,7 +816,10 @@ a { color: inherit; text-decoration: none; }
   transition: background 0.3s;
   cursor: pointer;
   position: relative;
+  color: inherit;
+  text-decoration: none;
 }
+a.tile { color: inherit; text-decoration: none; }
 .tile:hover { background: var(--blue-wash); }
 .tile__tag {
   font-family: var(--mono);
@@ -951,9 +954,11 @@ a { color: inherit; text-decoration: none; }
   color: #fff;
   display: grid;
   grid-template-columns: 1fr auto;
-  gap: 40px;
-  align-items: end;
+  gap: 60px;
+  align-items: start;
 }
+.end__col { display: flex; flex-direction: column; gap: 20px; }
+.end__col--right { align-items: flex-end; text-align: right; }
 .end__t {
   font-family: var(--serif);
   font-size: 32px;
@@ -963,14 +968,57 @@ a { color: inherit; text-decoration: none; }
   max-width: 22ch;
 }
 .end__t em { font-style: italic; color: #7FB2D9; }
+.end__disclaimer {
+  font-size: 12px;
+  line-height: 1.6;
+  color: rgba(255, 255, 255, 0.6);
+  max-width: 62ch;
+}
 .end__meta {
   font-family: var(--mono);
   font-size: 10px;
   letter-spacing: 0.18em;
   text-transform: uppercase;
-  text-align: right;
   opacity: 0.7;
   line-height: 1.8;
+}
+.end__author {
+  font-size: 12px;
+  line-height: 1.6;
+  color: rgba(255, 255, 255, 0.75);
+}
+.end__author a { color: #7FB2D9; text-decoration: none; }
+.end__author a:hover { text-decoration: underline; }
+
+/* ---------- feedback (kontakt 6.4) ---------- */
+.feedback {
+  display: flex;
+  gap: 24px;
+  align-items: flex-start;
+  padding: 22px 26px;
+  border: 1px dashed var(--rule);
+  background: transparent;
+  max-width: 640px;
+  font-size: 13.5px;
+  line-height: 1.6;
+  color: var(--ink-2);
+}
+.feedback__tag {
+  font-family: var(--mono);
+  font-size: 10px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--ink-3);
+  white-space: nowrap;
+  padding-top: 2px;
+}
+.feedback h5 {
+  font-family: var(--serif);
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: -0.01em;
+  color: var(--ink);
+  margin-bottom: 6px;
 }
 
 /* density + motion toggles (reserved for future URL-driven tweaks) */

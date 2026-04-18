@@ -391,6 +391,7 @@ a { color: inherit; text-decoration: none; }
 .section {
   padding: 44px 0;
   border-bottom: 1px solid var(--rule-soft);
+  min-width: 0;
 }
 .section:last-of-type { border-bottom: none; }
 

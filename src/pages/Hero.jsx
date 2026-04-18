@@ -31,7 +31,7 @@ export default function Hero() {
         </div>
         <div>
           <p className="hero__manifesto">
-            Det är svårt att hitta vad det är som gäller när man är gravid, och det är inte alltid det stämmer överens med det man får höra. Denna guide  försöker samla de rättigheter, skyldigheter och rutiner som gäller dig som gravid läkare i Region Stockholm: från riskbedömning på avdelningen till föräldraledighet, ersättning och det stöd du har rätt till av arbetsgivaren.
+            Det är svårt att hitta vad det är som gäller när man är gravid eller nybliven förälder, och det är inte alltid det stämmer överens med det man får höra. Denna guide försöker samla de rättigheter, skyldigheter och rutiner som gäller dig som gravid läkare i Region Stockholm: från riskbedömning på avdelningen till föräldraledighet, ersättning och det stöd du har rätt till av arbetsgivaren.
           </p>
           <div className="hero__toc">
             <div className="hero__toc__t">Innehåll — sju kapitel</div>

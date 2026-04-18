@@ -95,15 +95,6 @@ export default function Tidslinje() {
         <div className="section reveal">
           <div className="section__kicker">Tidslinje · bör och kan per fas</div>
 
-          <div className="callout callout--warn">
-            <div className="callout__tag">Parallellt spår</div>
-            <div>
-              <h5>Arbetsförbud p.g.a. risk — kan inträffa när som helst under graviditeten</h5>
-              <p>Om riskbedömningen visar allvarlig risk (strålning över 1 mSv-tak, cytostatika utan skydd, immunnegativ mot CMV/parvovirus under utbrott, smittsam TB utan FFP3) <strong>och omplacering inte är möjlig</strong>, fattar arbetsgivaren beslut om skyddsledighet enligt § 20 FLL → <strong>graviditetspenning hela förbudsperioden</strong> t.o.m. dag 11 före BF.</p>
-              <p>Detta är <em>ett annat rättsligt spår</em> än GP vid fysiskt tungt arbete (som har ett fast fönster från dag 60 före BF). Blanda inte ihop dem — de baseras på olika paragrafer och kan inte tas samtidigt för samma dag.</p>
-            </div>
-          </div>
-
           <div className="htl__legend">
             <div className="htl__legend-item">
               <span className="htl__legend-dot"></span>

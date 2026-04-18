@@ -93,65 +93,6 @@ export default function Foraldra() {
         </div>
       </div>
 
-      {/* 3.3 Tidslinje */}
-      <div className="grid">
-        <div className="grid__label"><strong>3.3</strong>Tidslinje</div>
-        <div className="section reveal">
-          <div className="section__kicker">Vad händer när</div>
-          <h3 className="section__h">Från graviditet till återgång</h3>
-          <div className="timeline">
-            <div className="tl__item">
-              <div className="tl__dot filled"></div>
-              <div className="tl__w">V. 0–12 · Tidig graviditet</div>
-              <div className="tl__t">Skriftlig anmälan om graviditet</div>
-              <div className="tl__d">Initiera riskbedömning enligt kap 2. Beröringspunkt till chef om tänkt omfattning och beräknat startdatum för ledigheten, även om exakt datum inte behöver fastställas än.</div>
-            </div>
-            <div className="tl__item">
-              <div className="tl__dot filled"></div>
-              <div className="tl__w">Senast 3 mån före ledighet</div>
-              <div className="tl__t">Formell anmälan till arbetsgivaren</div>
-              <div className="tl__d">AB § 29 kräver minst tre månaders varsel — inte två som FLL anger. För ledighet juni–augusti får arbetsgivaren kräva anmälan senast 1 april, om arbetsgivaren begärt det senast 15 mars.</div>
-            </div>
-            <div className="tl__item">
-              <div className="tl__dot filled"></div>
-              <div className="tl__w">V. 22–28 · Andra trimestern</div>
-              <div className="tl__t">Graviditetspenning vid behov</div>
-              <div className="tl__d">Om arbetet är fysiskt ansträngande och omplacering inte går: graviditetspenning från Försäkringskassan från tidigast 60 dagar före BF t.o.m. 11 dagar före BF — max 50 dagar. Vid arbetsmiljörisk som kräver arbetsförbud kan graviditetspenning fås även tidigare, hela den period då förbudet gäller.</div>
-            </div>
-            <div className="tl__item">
-              <div className="tl__dot filled"></div>
-              <div className="tl__w">60 dagar före BF</div>
-              <div className="tl__t">Tidigast uttag av föräldrapenning</div>
-              <div className="tl__d">Den som ska föda kan börja ta ut föräldrapenning från dag 60 före BF. Båda föräldrar kan använda föräldrapenning för mödravårdsbesök och föräldrautbildning från denna tidpunkt.</div>
-            </div>
-            <div className="tl__item">
-              <div className="tl__dot"></div>
-              <div className="tl__w">Förlossning</div>
-              <div className="tl__t">Mammaledighet + 10-dagar</div>
-              <div className="tl__d">Den födande har rätt till minst 7 veckors ledighet efter förlossningen. Den andra föräldern tar ut 10-dagar (tillfällig föräldrapenning). Föräldrapenningdagar räknas inte av under de 10-dagarna.</div>
-            </div>
-            <div className="tl__item">
-              <div className="tl__dot"></div>
-              <div className="tl__w">0–18 mån</div>
-              <div className="tl__t">Hel ledighet garanterad</div>
-              <div className="tl__d">Rätt till hel ledighet utan krav på föräldrapenningsuttag. Ledigheten får delas upp i högst tre perioder per kalenderår. Arbetsgivaren kan skjuta upp avbruten återgång i högst en månad om ledigheten varit planerad att pågå minst en månad.</div>
-            </div>
-            <div className="tl__item">
-              <div className="tl__dot"></div>
-              <div className="tl__w">1 år</div>
-              <div className="tl__t">SGI-skyddet kräver föräldrapenning</div>
-              <div className="tl__d">När barnet fyllt 1 år skyddas SGI endast om du tar ut föräldrapenning motsvarande den arbetstidsnedgång du har. Gå du ned till 80 %, ta ut 20 % föräldrapenning. Missar du detta tappar du SGI mot sjuk- och föräldrapenningen.</div>
-            </div>
-            <div className="tl__item">
-              <div className="tl__dot"></div>
-              <div className="tl__w">Återgång</div>
-              <div className="tl__t">Samma eller likvärdigt arbete</div>
-              <div className="tl__d">16 § FLL förbjuder missgynnande i anställningsvillkor, lönerevision, kompetensutveckling och befordran av skäl som har samband med föräldraledighet. Omvänd bevisbörda: om du visar sannolika omständigheter ska arbetsgivaren styrka att missgynnandet inte berott på ledigheten.</div>
-            </div>
-          </div>
-        </div>
-      </div>
-
       {/* 3.4 Försäkringskassan */}
       <div className="grid">
         <div className="grid__label"><strong>3.4</strong>Försäkringskassan</div>

@@ -13,16 +13,16 @@ const RESOURCES = [
 
 export default function Resurser() {
   return (
-    <section className="page" data-page="resurser" data-screen-label="07 Resurser">
+    <section className="page" data-page="resurser" data-screen-label="06 Resurser">
       <PageHead
-        num="07"
+        num="06"
         title="Resurser &"
         titleEm="länkar"
-        eyebrow="KAP. 7"
+        eyebrow="KAP. 6"
         lede="Samlade källor och primära rättskällor. Allt material här hänvisar till officiella svenska myndigheter, lagar och kollektivavtal."
       />
       <div className="grid">
-        <div className="grid__label"><strong>7.1</strong>Källor</div>
+        <div className="grid__label"><strong>6.1</strong>Källor</div>
         <div className="section reveal">
           <div className="section__kicker">Primärkällor</div>
           <div className="tiles">

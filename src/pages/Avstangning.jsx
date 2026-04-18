@@ -2,17 +2,17 @@ import PageHead from '../components/PageHead.jsx';
 
 export default function Avstangning() {
   return (
-    <section className="page" data-page="avstangning" data-screen-label="05 Avstängning">
+    <section className="page" data-page="avstangning" data-screen-label="04 Avstängning">
       <PageHead
-        num="05"
+        num="04"
         title="Avstängning"
         titleEm="från arbete"
-        eyebrow="KAP. 5"
+        eyebrow="KAP. 4"
         lede="I vissa fall har arbetsgivaren skyldighet att stänga av dig från arbetet — oftast då riskbedömningen visar fara och omplacering inte är möjlig. Avstängning ska alltid ske med bibehållna rättigheter och utan ekonomisk förlust."
       />
 
       <div className="grid">
-        <div className="grid__label"><strong>5.1</strong>När avstängning</div>
+        <div className="grid__label"><strong>4.1</strong>När avstängning</div>
         <div className="section reveal">
           <div className="section__kicker">Grunder för avstängning</div>
           <div className="prose">
@@ -49,7 +49,7 @@ export default function Avstangning() {
       </div>
 
       <div className="grid">
-        <div className="grid__label"><strong>5.2</strong>Ekonomi</div>
+        <div className="grid__label"><strong>4.2</strong>Ekonomi</div>
         <div className="section reveal">
           <div className="section__kicker">Ekonomi vid avstängning</div>
           <div className="prose">
@@ -67,7 +67,7 @@ export default function Avstangning() {
       </div>
 
       <div className="grid">
-        <div className="grid__label"><strong>5.3</strong>Dina rättigheter</div>
+        <div className="grid__label"><strong>4.3</strong>Dina rättigheter</div>
         <div className="section reveal">
           <div className="section__kicker">Vad du har rätt till</div>
           <div className="rows">

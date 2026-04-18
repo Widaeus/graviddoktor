@@ -2,16 +2,16 @@ import PageHead from '../components/PageHead.jsx';
 
 export default function Kontakt() {
   return (
-    <section className="page" data-page="kontakt" data-screen-label="08 Kontakt">
+    <section className="page" data-page="kontakt" data-screen-label="07 Kontakt">
       <PageHead
-        num="08"
+        num="07"
         title="Kontakt &"
         titleEm="stöd"
-        eyebrow="KAP. 8"
+        eyebrow="KAP. 7"
         lede="Om du har frågor, befinner dig i en akut situation eller vill få rådgivning kring din specifika situation — här är de viktigaste vägarna framåt."
       />
       <div className="grid">
-        <div className="grid__label"><strong>8.1</strong>Stöd</div>
+        <div className="grid__label"><strong>7.1</strong>Stöd</div>
         <div className="section reveal">
           <div className="section__kicker">Vem kontaktar jag?</div>
           <div className="contact">

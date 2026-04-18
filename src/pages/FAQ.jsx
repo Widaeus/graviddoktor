@@ -39,16 +39,16 @@ const FAQ_ITEMS = [
 export default function FAQ() {
   const [open, setOpen] = useState(0);
   return (
-    <section className="page" data-page="faq" data-screen-label="06 FAQ">
+    <section className="page" data-page="faq" data-screen-label="05 FAQ">
       <PageHead
-        num="06"
+        num="05"
         title="Vanliga"
         titleEm="frågor"
-        eyebrow="KAP. 6"
+        eyebrow="KAP. 5"
         lede="Frågor som läkarföreningar, skyddsombud och studierektorer får återkommande — samlade och med källhänvisning till lag, förordning eller kollektivavtal."
       />
       <div className="grid">
-        <div className="grid__label"><strong>6.1</strong>Q · A</div>
+        <div className="grid__label"><strong>5.1</strong>Q · A</div>
         <div className="section reveal">
           <div className="section__kicker">8 återkommande frågor</div>
           <div>

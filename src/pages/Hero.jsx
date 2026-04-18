@@ -26,14 +26,12 @@ export default function Hero() {
       <div className="hero__body">
         <div>
           <h1 className="hero__title">
-            Att vara <em>läkare</em>,<br/>
-            att vara <em>gravid</em>,<br/>
-            att vara <em>trygg</em>.
+            Vad är det som <em>gäller</em>?
           </h1>
         </div>
         <div>
           <p className="hero__manifesto">
-            Som läkare arbetar du i en miljö där patientens behov står i centrum — men under graviditeten är det <em>ditt</em> arbete, <em>din</em> kropp och <em>ditt</em> barn som kräver uppmärksamhet. Denna guide samlar de rättigheter, skyldigheter och rutiner som gäller dig som gravid läkare i Stockholm: från riskbedömning på avdelningen till föräldraledighet, ersättning och det stöd du har rätt till av arbetsgivaren.
+            Det är svårt att hitta vad det är som gäller när man är gravid, och det är inte alltid det stämmer överens med det man får höra. Denna guide  försöker samla de rättigheter, skyldigheter och rutiner som gäller dig som gravid läkare i Region Stockholm: från riskbedömning på avdelningen till föräldraledighet, ersättning och det stöd du har rätt till av arbetsgivaren.
           </p>
           <div className="hero__toc">
             <div className="hero__toc__t">Innehåll — åtta kapitel</div>

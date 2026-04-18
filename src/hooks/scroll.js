@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import { useCallback, useEffect, useState } from 'react';
 
 export function useScroll() {
   const [scrollY, setScrollY] = useState(0);
@@ -49,4 +49,58 @@ export function useActivePage() {
     return () => window.removeEventListener('scroll', onScroll);
   }, []);
   return active;
+}
+
+// Chapters that are NEVER collapsible — always fully visible.
+const NON_COLLAPSIBLE = new Set(['hem', 'kontakt']);
+
+// One open at a time. Returns { openChapter } to wire to nav clicks.
+// Also wires header clicks (any .page__head inside a [data-page]) to toggle.
+export function useCollapsibleChapters() {
+  const [openId, setOpenId] = useState(null);
+
+  // Apply is-collapsible / is-open classes to every chapter
+  useEffect(() => {
+    document.querySelectorAll('[data-page]').forEach((el) => {
+      const id = el.getAttribute('data-page');
+      if (NON_COLLAPSIBLE.has(id)) {
+        el.classList.add('is-open');
+        el.classList.remove('is-collapsible');
+        return;
+      }
+      el.classList.add('is-collapsible');
+      el.classList.toggle('is-open', openId === id);
+    });
+  }, [openId]);
+
+  // Click a header → toggle that chapter
+  useEffect(() => {
+    const onClick = (e) => {
+      const head = e.target.closest('.page__head');
+      if (!head) return;
+      const page = head.closest('[data-page]');
+      if (!page) return;
+      const id = page.getAttribute('data-page');
+      if (NON_COLLAPSIBLE.has(id)) return;
+      setOpenId((prev) => (prev === id ? null : id));
+      setTimeout(() => {
+        page.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      }, 50);
+    };
+    document.addEventListener('click', onClick);
+    return () => document.removeEventListener('click', onClick);
+  }, []);
+
+  const openChapter = useCallback((id) => {
+    if (NON_COLLAPSIBLE.has(id)) {
+      document.querySelector(`[data-page="${id}"]`)?.scrollIntoView({ behavior: 'smooth' });
+      return;
+    }
+    setOpenId(id);
+    setTimeout(() => {
+      document.querySelector(`[data-page="${id}"]`)?.scrollIntoView({ behavior: 'smooth' });
+    }, 50);
+  }, []);
+
+  return { openChapter, openId };
 }

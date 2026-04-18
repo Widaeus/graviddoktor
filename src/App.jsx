@@ -1,4 +1,4 @@
-import { useActivePage, useReveal } from './hooks/scroll.js';
+import { useActivePage, useReveal, useCollapsibleChapters } from './hooks/scroll.js';
 import Rail from './components/Rail.jsx';
 import Nav from './components/Nav.jsx';
 import End from './components/End.jsx';
@@ -14,11 +14,12 @@ import Kontakt from './pages/Kontakt.jsx';
 export default function App() {
   const active = useActivePage();
   useReveal();
+  const { openChapter } = useCollapsibleChapters();
 
   return (
     <>
-      <Rail active={active} />
-      <Nav active={active} />
+      <Rail active={active} openChapter={openChapter} />
+      <Nav active={active} openChapter={openChapter} />
       <main className="stage">
         <Hero />
         <Arbetsmiljo />

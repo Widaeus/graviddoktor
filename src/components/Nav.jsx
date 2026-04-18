@@ -1,10 +1,14 @@
 import { useState } from 'react';
 import { PAGES } from '../data/pages.js';
 
-export default function Nav({ active }) {
+export default function Nav({ active, openChapter }) {
   const [open, setOpen] = useState(false);
   const go = (id) => {
-    document.querySelector(`[data-page="${id}"]`)?.scrollIntoView({ behavior: 'smooth' });
+    if (openChapter) {
+      openChapter(id);
+    } else {
+      document.querySelector(`[data-page="${id}"]`)?.scrollIntoView({ behavior: 'smooth' });
+    }
     setOpen(false);
   };
 

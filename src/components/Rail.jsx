@@ -1,6 +1,6 @@
 import { PAGES } from '../data/pages.js';
 
-export default function Rail({ active }) {
+export default function Rail({ active, openChapter }) {
   const page = PAGES[active] || PAGES[0];
   return (
     <aside className="rail">
@@ -15,7 +15,7 @@ export default function Rail({ active }) {
             key={p.id}
             className={`rail__dot ${i === active ? 'is-active' : ''}`}
             data-label={p.num + ' · ' + p.title}
-            onClick={() => document.querySelector(`[data-page="${p.id}"]`)?.scrollIntoView({ behavior: 'smooth' })}
+            onClick={() => openChapter ? openChapter(p.id) : document.querySelector(`[data-page="${p.id}"]`)?.scrollIntoView({ behavior: 'smooth' })}
           />
         ))}
       </div>

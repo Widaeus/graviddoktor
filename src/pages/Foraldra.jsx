@@ -300,65 +300,9 @@ export default function Foraldra() {
         </div>
       </div>
 
-      {/* 4.9 Lokala variationer */}
+      {/* 4.9 Tvister */}
       <div className="grid">
-        <div className="grid__label"><strong>4.9</strong>Lokala variationer</div>
-        <div className="section reveal">
-          <div className="section__kicker">Region Stockholms förvaltningar</div>
-          <h3 className="section__h">Huvudsakligen harmoniserat — med undantag</h3>
-          <div className="prose">
-            <p>Sedan 1 januari 2025 är Danderyds sjukhus, Södersjukhuset, Södertälje sjukhus och S:t Eriks Ögonsjukhus avbolagiserade och ligger som förvaltningar under Akutsjukhusnämnden. Arbetsgivaren är därmed juridiskt Region Stockholm för alla dessa, och den centrala förmånsmodellen ska gälla genomgående. Grundreglerna är i huvudsak gemensamma, men offentligt publicerad information från olika verksamheter är inte alltid harmoniserad — därför bör uppgifter om kvalifikationstid, föräldralön och lokala rutiner verifieras med HR eller lokalförening innan de används för ekonomisk planering.</p>
-          </div>
-          <div className="rows">
-            <div className="row">
-              <div className="row__wk">RS</div>
-              <div className="row__t">Region Stockholm centralt — 180 dagars kvalifikation, 10 % i 180 dagar, föräldralön upp till 270 dagar, ≈ 90 % total ersättning</div>
-              <div className="row__meta">Huvudregel</div>
-            </div>
-            <div className="row">
-              <div className="row__wk">SLSO</div>
-              <div className="row__t">Stockholms läns sjukvårdsområde — samma modell; uttrycker särskilt att pensionsinbetalning fortsätter under ledighet</div>
-              <div className="row__meta">Konsistent</div>
-            </div>
-            <div className="row">
-              <div className="row__wk">KS</div>
-              <div className="row__t">Karolinska — utökad möjlighet till heltidsföräldraledighet till att barnet fyllt 3 år samt 75 % arbete till 12 års ålder, med chefs godkännande</div>
-              <div className="row__meta">Går över lag</div>
-            </div>
-            <div className="row">
-              <div className="row__wk">DS</div>
-              <div className="row__t">Danderyds sjukhus — 180 dagar, 10 % i 180 dagar, mellanskillnadsersättning över 10 prisbasbelopp</div>
-              <div className="row__meta">Konsistent</div>
-            </div>
-            <div className="row">
-              <div className="row__wk">SST</div>
-              <div className="row__t">Södertälje sjukhus — 180 dagar, 10 % i 180 dagar, föräldralön upp till 270 dagar; AGS-KL/TFA-KL/TGL-KL listade</div>
-              <div className="row__meta">Konsistent</div>
-            </div>
-            <div className="row">
-              <div className="row__wk">SÖS</div>
-              <div className="row__t">Södersjukhuset — publik sida anger 356 dagars anställning som kvalifikationskrav; avviker från AB 25 och central regionmodell</div>
-              <div className="row__meta">Verifiera lokalt</div>
-            </div>
-            <div className="row">
-              <div className="row__wk">S:t Erik</div>
-              <div className="row__t">S:t Eriks Ögonsjukhus — 10 % i 180 dagar, föräldralön över FK-tak efter minst sex månader</div>
-              <div className="row__meta">Konsistent i sak</div>
-            </div>
-          </div>
-          <div className="callout callout--warn">
-            <div className="callout__tag">Södersjukhuset</div>
-            <div>
-              <h5>356-dagarsuppgiften bör verifieras skriftligt</h5>
-              <p>Södersjukhusets offentliga informationssida anger ett strängare kvalifikationskrav än AB 25 och Region Stockholms centrala sida. Det kan handla om inaktuell publik text snarare än faktisk lokal praxis. Begär skriftligt besked från Södersjukhusets HR/lönekontor om vilket kvalifikationskrav som faktiskt tillämpas, innan du planerar ekonomin kring ledigheten.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      {/* 4.10 Tvister */}
-      <div className="grid">
-        <div className="grid__label"><strong>4.10</strong>Tvister</div>
+        <div className="grid__label"><strong>4.9</strong>Tvister</div>
         <div className="section reveal">
           <div className="section__kicker">Två separata spår</div>
           <h3 className="section__h">Försäkringskassan respektive arbetsgivaren</h3>

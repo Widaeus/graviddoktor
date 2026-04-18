@@ -201,7 +201,7 @@ Estimaten är approximativa och får justeras senare. Grundregel: ~200 ord/min.
 | 02 | Tidslinje | `"4 min"` |
 | 03 | Arbetsmiljö | `"12 min"` |
 | 04 | Föräldraledighet | `"10 min"` |
-| 05 | Vanliga frågor | `"8 min"` |
+| 05 | Vanliga frågor | *ej angivet* |
 | 06 | Resurser | *ej angivet* |
 | 07 | Kontakt | *ej angivet* |
 

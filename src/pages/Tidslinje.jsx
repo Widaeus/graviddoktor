@@ -110,13 +110,12 @@ export default function Tidslinje() {
             </div>
           </div>
 
-          <div className="htl__phase-band">
-            <div className="htl__phase-seg htl__phase-seg--grav" style={{ width: '1100px' }}>Graviditet · anmälan → BF</div>
-            <div className="htl__phase-seg htl__phase-seg--led" style={{ width: '660px' }}>Ledighet · förlossning → 12 mån</div>
-            <div className="htl__phase-seg htl__phase-seg--ret" style={{ width: '440px' }}>Återgång · 12 mån →</div>
-          </div>
-
           <div className="htl__scroll">
+            <div className="htl__phase-band">
+              <div className="htl__phase-seg htl__phase-seg--grav" style={{ width: '1100px' }}>Graviditet · anmälan → BF</div>
+              <div className="htl__phase-seg htl__phase-seg--led" style={{ width: '660px' }}>Ledighet · förlossning → 12 mån</div>
+              <div className="htl__phase-seg htl__phase-seg--ret" style={{ width: '440px' }}>Återgång · 12 mån →</div>
+            </div>
             <div className="htl">
               {NODES.map((n, i) => (
                 <Fragment key={i}>

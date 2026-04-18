@@ -84,11 +84,10 @@ export default function Tidslinje() {
     <section className="page" data-page="tidslinje" data-screen-label="02 Tidslinje">
       <PageHead
         num="02"
-        title="Översikt &"
-        titleEm="tidslinje"
+        title="Tidslinje"
         eyebrow="KAP. 2"
         readTime="4 min"
-        lede="En visuell, kronologisk översikt av allt som händer från besked om graviditet till återgång efter ledigheten. Detta kapitel är sajtens index — innehållet fördjupas i efterföljande kapitel."
+        lede="En kronologisk karta över allt som händer från besked om graviditet till återgång efter ledigheten. Kapitlet är sajtens index — innehållet fördjupas i efterföljande kapitel."
       />
 
       <div className="grid">

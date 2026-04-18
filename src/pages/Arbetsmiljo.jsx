@@ -197,53 +197,9 @@ export default function Arbetsmiljo() {
         </div>
       </div>
 
-      {/* 2.7 Lokala skillnader */}
+      {/* 2.7 Process */}
       <div className="grid">
-        <div className="grid__label"><strong>2.7</strong>Lokala skillnader</div>
-        <div className="section reveal">
-          <div className="section__kicker">Region Stockholm är inte en arbetsgivare</div>
-          <h3 className="section__h">Du måste veta vilken dörr du knackar på</h3>
-          <div className="prose">
-            <p>Region Stockholm är en konstellation av separata juridiska arbetsgivare. Materiella regler är gemensamma, men praktiska och organisatoriska rutiner skiljer sig åt — olika vägar till företagshälsovård, olika skyddsombudsorganisationer, olika lokala rutiner, och olika grad av publik transparens.</p>
-          </div>
-          <div className="rows">
-            <div className="row">
-              <div className="row__wk">KAR</div>
-              <div className="row__t">Karolinska Universitetssjukhuset — högspecialiserad vård, egen stödfunktion via Hälsocentrum; formaliserade rutiner för strålsäkerhet och MR</div>
-              <div className="row__meta">Intranät</div>
-            </div>
-            <div className="row">
-              <div className="row__wk">SÖS</div>
-              <div className="row__t">Södersjukhuset — fokus på ergonomi och patientflöden; driver Specialistmödravård och mottagning för förlossningsrädsla</div>
-              <div className="row__meta">HR-portal</div>
-            </div>
-            <div className="row">
-              <div className="row__wk">DS</div>
-              <div className="row__t">Danderyds sjukhus — Falck företagshälsovård, självkontakt upp till 3 gånger/år utan arbetsgivarens medgivande</div>
-              <div className="row__meta">Falck</div>
-            </div>
-            <div className="row">
-              <div className="row__wk">SLSO</div>
-              <div className="row__t">Stockholms läns sjukvårdsområde — primärvård och psykiatri; tät samverkan med CAMM, fokus på psykosociala faktorer</div>
-              <div className="row__meta">Intranät</div>
-            </div>
-            <div className="row">
-              <div className="row__wk">SST</div>
-              <div className="row__t">Södertälje sjukhus och S:t Eriks Ögonsjukhus — egna lokala förmånssidor, från 2025 under Akutsjukhusnämnden</div>
-              <div className="row__meta">HR</div>
-            </div>
-            <div className="row">
-              <div className="row__wk">CAMM</div>
-              <div className="row__t">Centrum för arbets- och miljömedicin — regional specialistresurs; kostnadsfri rådgivning 08-123 372 22, remissfri och utan arbetsgivarens vetskap</div>
-              <div className="row__meta">SLSO</div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      {/* 2.8 Process */}
-      <div className="grid">
-        <div className="grid__label"><strong>2.8</strong>Processen steg för steg</div>
+        <div className="grid__label"><strong>2.7</strong>Processen steg för steg</div>
         <div className="section reveal">
           <div className="section__kicker">Från anmälan till uppföljning</div>
           <div className="rows">
@@ -298,9 +254,9 @@ export default function Arbetsmiljo() {
         </div>
       </div>
 
-      {/* 2.9 Eskalering */}
+      {/* 2.8 Eskalering */}
       <div className="grid">
-        <div className="grid__label"><strong>2.9</strong>När processen brakar samman</div>
+        <div className="grid__label"><strong>2.8</strong>När processen brakar samman</div>
         <div className="section reveal">
           <div className="section__kicker">Eskaleringskedjan</div>
           <h3 className="section__h">Från påminnelse till skyddsstopp</h3>
@@ -355,9 +311,9 @@ export default function Arbetsmiljo() {
         </div>
       </div>
 
-      {/* 2.10 ST/AT/BT */}
+      {/* 2.9 ST/AT/BT */}
       <div className="grid">
-        <div className="grid__label"><strong>2.10</strong>ST, AT och BT</div>
+        <div className="grid__label"><strong>2.9</strong>ST, AT och BT</div>
         <div className="section reveal">
           <div className="section__kicker">Specifik problematik för läkare under utbildning</div>
           <h3 className="section__h">Varje ny placering är en ny riskbedömning</h3>
@@ -376,9 +332,9 @@ export default function Arbetsmiljo() {
         </div>
       </div>
 
-      {/* 2.11 Gråzoner */}
+      {/* 2.10 Gråzoner */}
       <div className="grid">
-        <div className="grid__label"><strong>2.11</strong>Gråzoner</div>
+        <div className="grid__label"><strong>2.10</strong>Gråzoner</div>
         <div className="section reveal">
           <div className="section__kicker">Tolkningsfrågor</div>
           <h3 className="section__h">Där evidens, försiktighet och praxis kolliderar</h3>

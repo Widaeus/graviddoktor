@@ -1056,6 +1056,151 @@ a.tile { color: inherit; text-decoration: none; }
   margin-bottom: 6px;
 }
 
+/* ---------- kap 02: horisontell tidslinje ---------- */
+
+/* legend */
+.htl__legend {
+  display: flex;
+  gap: 22px;
+  flex-wrap: wrap;
+  font-family: var(--mono);
+  font-size: 10px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--ink-3);
+  margin: 20px 0 20px;
+  padding-bottom: 14px;
+  border-bottom: 1px solid var(--rule);
+}
+.htl__legend-item { display: flex; align-items: center; gap: 8px; }
+.htl__legend-dot {
+  width: 10px; height: 10px;
+  border-radius: 50%;
+  border: 2px solid var(--blue);
+  background: var(--blue);
+}
+
+/* fas-band (desktop) */
+.htl__phase-band {
+  display: flex;
+  min-width: max-content;
+}
+.htl__phase-seg {
+  font-family: var(--mono);
+  font-size: 10px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  padding: 6px 18px;
+  border-bottom: 2px solid;
+  white-space: nowrap;
+}
+.htl__phase-seg--grav { color: var(--blue); border-bottom-color: var(--blue); }
+.htl__phase-seg--led { color: var(--warm); border-bottom-color: var(--warm); }
+.htl__phase-seg--ret { color: var(--blue-deep); border-bottom-color: var(--blue-deep); }
+
+/* fas-etikett (mobil only, default hidden) */
+.htl__phase-mobile { display: none; }
+
+/* scroll container */
+.htl__scroll {
+  overflow-x: auto;
+  padding-bottom: 14px;
+}
+.htl__scroll::-webkit-scrollbar { height: 6px; }
+.htl__scroll::-webkit-scrollbar-thumb { background: var(--rule); border-radius: 3px; }
+
+/* root timeline grid */
+.htl {
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: 220px;
+  position: relative;
+  padding: 24px 0 8px 0;
+  min-width: max-content;
+}
+.htl::before {
+  content: "";
+  position: absolute;
+  left: 28px; right: 28px; top: 44px;
+  height: 1px;
+  background: var(--rule);
+}
+
+/* timeline item */
+.htl__item {
+  padding: 0 18px;
+  position: relative;
+}
+.htl__dot {
+  width: 14px; height: 14px;
+  border-radius: 50%;
+  background: #fff;
+  border: 2px solid var(--blue);
+  margin: 20px 0 12px;
+  position: relative;
+  z-index: 1;
+}
+.htl__item--filled .htl__dot { background: var(--blue); }
+.htl__w {
+  font-family: var(--mono);
+  font-size: 10px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--blue);
+  margin-bottom: 6px;
+  min-height: 26px;
+}
+.htl__t {
+  font-family: var(--serif);
+  font-size: 16px;
+  letter-spacing: -0.01em;
+  font-weight: 400;
+  margin-bottom: 8px;
+  line-height: 1.25;
+  color: var(--ink);
+}
+.htl__d {
+  font-size: 14px;
+  line-height: 1.5;
+  color: var(--ink-2);
+  margin-bottom: 10px;
+}
+.htl__acts { display: flex; flex-direction: column; gap: 4px; }
+
+/* act tags (återanvändbara) */
+.act__row {
+  display: flex;
+  gap: 8px;
+  font-size: 11.5px;
+  color: var(--ink-2);
+  line-height: 1.4;
+  align-items: baseline;
+}
+.act__tag {
+  font-family: var(--mono);
+  font-size: 8.5px;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  padding: 2px 6px;
+  border-radius: 2px;
+  white-space: nowrap;
+  flex-shrink: 0;
+  font-weight: 400;
+}
+.act__tag--bor { background: var(--blue); color: #fff; }
+.act__tag--kan { background: var(--blue-soft); color: var(--blue-deep); }
+
+/* scroll hint */
+.htl__scroll-hint {
+  font-family: var(--mono);
+  font-size: 9.5px;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--ink-3);
+  margin-top: 6px;
+  text-align: right;
+}
+
 /* density + motion toggles (reserved for future URL-driven tweaks) */
 body.motion-off .spin,
 body.motion-off .breathe { animation: none !important; }
@@ -1290,4 +1435,71 @@ body.density-compact .page__num { font-size: 72px; }
   }
   .end__t { font-size: 24px; max-width: none; }
   .end__meta { text-align: left; }
+
+  /* kap 02 — tidslinje mobil fallback */
+  .htl__phase-band { display: none; }
+
+  .htl__scroll {
+    overflow-x: visible;
+    padding-bottom: 0;
+  }
+
+  .htl {
+    display: flex;
+    flex-direction: column;
+    grid-auto-flow: initial;
+    grid-auto-columns: initial;
+    padding: 20px 0 0 32px;
+    min-width: 0;
+  }
+  .htl::before {
+    left: 4px;
+    right: auto;
+    top: 10px;
+    bottom: 10px;
+    height: auto;
+    width: 1px;
+  }
+
+  .htl__item {
+    padding: 0 0 24px 0;
+  }
+  .htl__dot {
+    position: absolute;
+    left: -30px;
+    top: 26px;
+    width: 11px;
+    height: 11px;
+    margin: 0;
+  }
+  .htl__w { min-height: auto; margin-bottom: 4px; }
+  .htl__t { font-size: 17px; margin-bottom: 6px; }
+  .htl__d { font-size: 13.5px; margin-bottom: 8px; max-width: none; }
+
+  .htl__legend {
+    gap: 14px;
+    font-size: 9px;
+    margin: 14px 0 14px;
+    padding-bottom: 10px;
+  }
+
+  .htl__phase-mobile {
+    display: block;
+    font-family: var(--mono);
+    font-size: 9px;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    padding: 8px 0;
+    margin: 10px -32px 16px -32px;
+    text-align: center;
+    background: var(--paper);
+    border-top: 1px solid var(--rule);
+    border-bottom: 1px solid var(--rule);
+    position: relative;
+    z-index: 2;
+  }
+  .htl__phase-mobile--led { color: var(--warm); }
+  .htl__phase-mobile--ret { color: var(--blue-deep); }
+
+  .htl__scroll-hint { display: none; }
 }

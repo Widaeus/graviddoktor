@@ -12,7 +12,7 @@ export default function Arbetsmiljo() {
         lede="Så snart du har meddelat din graviditet är arbetsgivaren skyldig att göra en individuell, skriftlig riskbedömning av just din tjänstgöring. Bedömningen ska omfatta fysiska, kemiska, biologiska och psykosociala faktorer — och den ska leda till konkreta åtgärder enligt en bestämd prioritetsordning."
       />
 
-      {/* 2.1 Lagstöd */}
+      {/* 3.1 Lagstöd */}
       <div className="grid">
         <div className="grid__label"><strong>3.1</strong>Rättsligt fundament</div>
         <div className="section reveal">
@@ -33,7 +33,7 @@ export default function Arbetsmiljo() {
         </div>
       </div>
 
-      {/* 2.2 Åtgärdstrappan */}
+      {/* 3.2 Åtgärdstrappan */}
       <div className="grid">
         <div className="grid__label"><strong>3.2</strong>Åtgärdstrappan</div>
         <div className="section reveal">
@@ -67,7 +67,7 @@ export default function Arbetsmiljo() {
         </div>
       </div>
 
-      {/* 2.3 Risker — biologiska */}
+      {/* 3.3 Risker — biologiska */}
       <div className="grid">
         <div className="grid__label"><strong>3.3</strong>Biologiska risker</div>
         <div className="section reveal">
@@ -117,7 +117,7 @@ export default function Arbetsmiljo() {
         </div>
       </div>
 
-      {/* 2.4 Strålning */}
+      {/* 3.4 Strålning */}
       <div className="grid">
         <div className="grid__label"><strong>3.4</strong>Joniserande strålning</div>
         <div className="section reveal">
@@ -132,7 +132,7 @@ export default function Arbetsmiljo() {
         </div>
       </div>
 
-      {/* 2.5 Kemiska och fysiska risker */}
+      {/* 3.5 Kemiska och fysiska risker */}
       <div className="grid">
         <div className="grid__label"><strong>3.5</strong>Kemiska och fysiska</div>
         <div className="section reveal">
@@ -178,7 +178,7 @@ export default function Arbetsmiljo() {
         </div>
       </div>
 
-      {/* 2.6 Stockholms-avtalet om jourbefrielse */}
+      {/* 3.6 Stockholms-avtalet om jourbefrielse */}
       <div className="grid">
         <div className="grid__label"><strong>3.6</strong>Jourbefrielse</div>
         <div className="section reveal">
@@ -198,7 +198,7 @@ export default function Arbetsmiljo() {
         </div>
       </div>
 
-      {/* 2.7 Process */}
+      {/* 3.7 Process */}
       <div className="grid">
         <div className="grid__label"><strong>3.7</strong>Processen steg för steg</div>
         <div className="section reveal">
@@ -255,7 +255,7 @@ export default function Arbetsmiljo() {
         </div>
       </div>
 
-      {/* 2.8 Eskalering */}
+      {/* 3.8 Eskalering */}
       <div className="grid">
         <div className="grid__label"><strong>3.8</strong>När processen brakar samman</div>
         <div className="section reveal">
@@ -312,7 +312,7 @@ export default function Arbetsmiljo() {
         </div>
       </div>
 
-      {/* 2.9 ST/AT/BT */}
+      {/* 3.9 ST/AT/BT */}
       <div className="grid">
         <div className="grid__label"><strong>3.9</strong>ST, AT och BT</div>
         <div className="section reveal">
@@ -333,7 +333,7 @@ export default function Arbetsmiljo() {
         </div>
       </div>
 
-      {/* 2.10 Gråzoner */}
+      {/* 3.10 Gråzoner */}
       <div className="grid">
         <div className="grid__label"><strong>3.10</strong>Gråzoner</div>
         <div className="section reveal">

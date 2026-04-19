@@ -37,49 +37,55 @@ export default function Foraldra() {
       <div className="grid">
         <div className="grid__label"><strong>4.2</strong>Ledighetsformer</div>
         <div className="section reveal">
-          <div className="section__kicker">Sju distinkta ledighetsrättigheter</div>
+          <div className="section__kicker">Åtta distinkta ledighetsrättigheter</div>
           <h3 className="section__h">Rätt till ledighet — med eller utan föräldrapenning</h3>
           <ol className="list-num">
             <li>
               <div>
-                <h4>Mammaledighet · 7 + 7 veckor</h4>
+                <h4>Mammaledighet · 7 + 7 veckor <span className="law-ref">4 § FLL</span></h4>
                 <p>Den som föder barnet har rätt till en sammanhängande ledighet om minst sju veckor före beräknad förlossning och sju veckor efter. Denna ledighet kräver <em>inte</em> att föräldrapenning tas ut. Amning ger därutöver rätt till ledighet så länge amningen pågår.</p>
               </div>
             </li>
             <li>
               <div>
-                <h4>Hel ledighet tills barnet är 18 månader</h4>
+                <h4>Hel ledighet tills barnet är 18 månader <span className="law-ref">5 § FLL</span></h4>
                 <p>Stark rätt enligt lag att vara helt ledig från arbetet tills barnet fyller 1,5 år, <em>oavsett</em> om du tar ut föräldrapenning eller inte. Detta är grundrätten som arbetsgivaren inte kan neka av bemanningsskäl.</p>
               </div>
             </li>
             <li>
               <div>
-                <h4>Hel ledighet med föräldrapenning</h4>
+                <h4>Hel ledighet med föräldrapenning <span className="law-ref">5 § FLL</span></h4>
                 <p>Rätt till hel ledighet så länge du tar ut hel föräldrapenning, fram till barnet är 12 år eller slutat årskurs 5. Totalt 480 dagar per barn — 390 dagar på sjukpenningnivå och 90 dagar på lägstanivå (180 kr/dag). Vid två vårdnadshavare delas dagarna 240/240, varav 90 sjukpenningdagar per förälder är reserverade och inte kan överlåtas.</p>
               </div>
             </li>
             <li>
               <div>
-                <h4>Delledighet med föräldrapenning</h4>
+                <h4>Delledighet med föräldrapenning <span className="law-ref">6 § FLL</span></h4>
                 <p>Rätt att gå ned till <strong>7/8, 3/4, 1/2 eller 1/4</strong> av arbetstiden (87,5 %, 75 %, 50 % respektive 25 % arbete) i takt med uttag av motsvarande föräldrapenning. Förläggningen ska ske i samråd — arbetsgivaren får inte ensidigt dela upp delledigheten mitt i arbetsdagen utan ditt samtycke.</p>
               </div>
             </li>
             <li>
               <div>
-                <h4>Delledighet utan föräldrapenning</h4>
+                <h4>Delledighet utan föräldrapenning <span className="law-ref">7 § FLL</span></h4>
                 <p>Rätt att minska normal arbetstid med upp till <strong>25 %</strong> — alltså gå ned till 75 % — utan att ta ut föräldrapenning, fram till barnet fyller 8 år eller avslutat första skolåret. Rätten följer av lag; förläggningen samråds.</p>
               </div>
             </li>
             <li>
               <div>
-                <h4>Tillfällig föräldrapenning (VAB)</h4>
+                <h4>Tillfällig föräldrapenning (VAB) <span className="law-ref">8 § FLL</span></h4>
                 <p>Upp till <strong>120 dagar per barn och år</strong> vid barnets sjukdom. VAB kan även tas ut av den ena föräldern när den andra — som normalt skulle ha vårdat barnet — är sjukskriven; huvudregeln är att detta gäller från att barnet är 8 månader. Anmäls till Försäkringskassan från dag 1.</p>
               </div>
             </li>
             <li>
               <div>
-                <h4>10-dagar i samband med födseln</h4>
+                <h4>10-dagar i samband med födseln <span className="law-ref">8 § FLL</span></h4>
                 <p>Den förälder som inte föder barnet har rätt till 10 dagar med tillfällig föräldrapenning i anslutning till barnets födsel. Måste normalt sökas senast 30 dagar efter första hemmadagen. Vid adoption av barn under 10 år: 10 dagar till den ena eller båda föräldrarna.</p>
+              </div>
+            </li>
+            <li>
+              <div>
+                <h4>Ledighet med omvårdnadsbidrag <span className="law-ref">9 § FLL</span></h4>
+                <p>Rätt att förkorta normal arbetstid med upp till <strong>25 %</strong> när omvårdnadsbidrag (SFB 22 kap) utgår för barnet. Avsedd för föräldrar till barn med funktionsnedsättning eller långvarig sjukdom som kräver särskild tillsyn eller vård.</p>
               </div>
             </li>
           </ol>

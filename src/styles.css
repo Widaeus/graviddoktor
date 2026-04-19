@@ -609,6 +609,22 @@ sup {
   line-height: 0;
 }
 
+.law-ref {
+  display: inline-block;
+  margin-left: 10px;
+  padding: 2px 8px;
+  font-family: var(--mono);
+  font-size: 10px;
+  font-weight: 400;
+  letter-spacing: 0.08em;
+  color: var(--blue);
+  background: var(--blue-wash);
+  border: 1px solid var(--blue-soft);
+  border-radius: 3px;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
 /* ---------- geometric marks ---------- */
 .mark {
   position: absolute;

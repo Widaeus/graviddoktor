@@ -87,28 +87,13 @@ export default function Tidslinje() {
         title="Tidslinje"
         eyebrow="KAP. 2"
         readTime="4 min"
-        lede="En kronologisk karta med praktisk arbetsgång från besked om graviditet till återgång efter ledigheten — rekommenderad process snarare än lagstadgade tidsfrister. Kapitlet är sajtens index; innehållet fördjupas i efterföljande kapitel."
+        lede="En kronologisk karta med praktisk arbetsgång från besked om graviditet till återgång efter ledigheten — rekommenderad process snarare än lagstadgade tidsfrister."
       />
 
       <div className="grid">
         <div className="grid__label"><strong>2.1</strong>Från anmälan till återgång</div>
         <div className="section reveal">
           <div className="section__kicker">Tidslinje · bör och kan per fas</div>
-
-          <div className="htl__legend">
-            <div className="htl__legend-item">
-              <span className="htl__legend-dot"></span>
-              <span>Diskret händelse</span>
-            </div>
-            <div className="htl__legend-item">
-              <span className="act__tag act__tag--bor">Bör</span>
-              <span>Något du eller arbetsgivaren normalt ska göra</span>
-            </div>
-            <div className="htl__legend-item">
-              <span className="act__tag act__tag--kan">Kan</span>
-              <span>Valfritt eller villkorat</span>
-            </div>
-          </div>
 
           <div className="htl__scroll">
             <div className="htl__phase-band">

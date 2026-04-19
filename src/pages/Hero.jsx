@@ -19,8 +19,8 @@ export default function Hero() {
       </div>
 
       <div className="hero__top">
-        <span><strong>Gravid Doktor</strong> — En guide för läkare i Region Stockholm</span>
-        <span><span>Senast rev. 2026-04-18</span></span>
+        <span><strong>Gravid Doktor</strong> — En guide för läkare i Region Stockholm · Skapad med Claude Code (Opus 4.7)</span>
+        <span><span>Senast rev. 2026-04-19</span></span>
       </div>
 
       <div className="hero__body">

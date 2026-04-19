@@ -26,7 +26,7 @@ export default function Arbetsmiljo() {
           <div className="callout">
             <div className="callout__tag">Viktigt</div>
             <div>
-              <h5>Hänvisningar till AFS 2007:5 är obsoleta</h5>
+              <h5>Hänvisningar till AFS 2007:5 är föråldrade</h5>
               <p>Äldre lokala PM, checklistor och riktlinjer på Karolinska, SÖS, Danderyd, SLSO, Södertälje och S:t Erik hänvisar ofta fortfarande till AFS 2007:5. Substansen i dessa dokument kan vara korrekt, men den formella referensen ska från 2025 vara <strong>AFS 2023:2 kap 7</strong> för gravida och ammande, och <strong>AFS 2023:15</strong> för medicinska kontroller.</p>
             </div>
           </div>
@@ -74,46 +74,60 @@ export default function Arbetsmiljo() {
           <div className="section__kicker">Smittämnen i riskklass 2–4</div>
           <h3 className="section__h">Smittor som måste bedömas individuellt</h3>
           <div className="prose">
-            <p>Sjukhusmiljön är per definition förenad med risk för potenta patogener. Vissa smittämnen omfattas av uttryckliga förbud enligt AFS 2023:2 när immunitet saknas, medan andra kräver individuell bedömning utifrån exponeringens art, grad och varaktighet. I klinisk vardag bör därför både immunitetsstatus, arbetsmoment och lokala skyddsrutiner vägas in.</p>
+            <p>Sjukhusmiljön är per definition förenad med risk för potenta patogener. Vissa smittämnen omfattas av uttryckliga förbud enligt AFS 2023:2 när immunitet saknas, medan andra kräver individuell bedömning utifrån exponeringens art, grad och varaktighet.<sup>7</sup> I klinisk vardag bör därför både immunitetsstatus, arbetsmoment och lokala skyddsrutiner vägas in.</p>
           </div>
           <ol className="list-num">
             <li>
               <div>
                 <h4>Cytomegalovirus (CMV)</h4>
-                <p>Den mest omdiskuterade risken i svensk vård. 30–50 % av unga kvinnor är immunnegativa. Primärinfektion under graviditet överförs till fostret i cirka 30–50 % av fallen. Pragmatisk hållning: serologi bör erbjudas <em>före</em> graviditet till personal på pediatrik, neonatologi och barnakut. Immunnegativ gravid kan ofta arbeta kvar med modifierade uppgifter (ingen blöj-/saliv-/urin-kontakt med barn under tre år) snarare än full omplacering.</p>
+                <p>Den mest omdiskuterade risken i svensk vård. 30–50 % av unga kvinnor är immunnegativa.<sup>1</sup> Primärinfektion under graviditet överförs till fostret i cirka 30–40 % av fallen.<sup>2</sup> Pragmatisk hållning: serologi bör erbjudas <em>före</em> graviditet till personal på pediatrik, neonatologi och barnakut. Immunnegativ gravid kan ofta arbeta kvar med modifierade uppgifter (ingen blöj-/saliv-/urin-kontakt med barn under tre år) snarare än full omplacering.</p>
               </div>
             </li>
             <li>
               <div>
                 <h4>Parvovirus B19 (femte sjukan)</h4>
-                <p>Underskattad risk. Primärinfektion före graviditetsvecka 20 ger cirka 9 % missfallsrisk samt risk för hydrops fetalis. Vid utbrott på barn- eller infektionsavdelning bör immunnegativ gravid normalt omplaceras.</p>
+                <p>Underskattad risk. Primärinfektion före graviditetsvecka 20 ger cirka 9 % risk för fosterdöd och risk för hydrops fetalis.<sup>3</sup> Vid utbrott på barn- eller infektionsavdelning bör immunnegativ gravid normalt omplaceras.</p>
               </div>
             </li>
             <li>
               <div>
                 <h4>Varicella zoster och mässling</h4>
-                <p>Högsmittsamt luftburet. Vid misstänkt eller känd exponering för mässling eller vattkoppor hos icke-immun gravid personal är försiktighetslinjen i praktiken ofta mycket restriktiv. Även om skyddsutrustning minskar risken bör arbetsgivaren normalt planera bort sådan exponering snarare än förlita sig enbart på FFP3.</p>
+                <p>Högsmittsamt luftburet. Vid misstänkt eller känd exponering för mässling eller vattkoppor hos icke-immun gravid personal är försiktighetslinjen i praktiken ofta mycket restriktiv.<sup>4,5</sup> Även om skyddsutrustning minskar risken bör arbetsgivaren normalt planera bort sådan exponering snarare än förlita sig enbart på FFP3.</p>
               </div>
             </li>
             <li>
               <div>
                 <h4>Tuberkulos</h4>
-                <p>Passform-testad FFP3 i enkelrum med sluss ger i regel fullgott skydd. Vid högsmittsam multiresistent TB kan ytterligare åtgärder eller omplacering övervägas. Observera risk för reaktivering av latent TB postpartum.</p>
+                <p>Passform-testad FFP3 i enkelrum med sluss ger i regel fullgott skydd. Vid högsmittsam multiresistent TB kan ytterligare åtgärder eller omplacering övervägas. Observera risk för reaktivering av latent TB postpartum.<sup>6</sup></p>
               </div>
             </li>
             <li>
               <div>
                 <h4>Rubella (röda hund) och toxoplasma</h4>
-                <p>Uttryckliga förbud enligt AFS 2023:2 vid utebliven immunitet. Brott kan ge sanktionsavgift. Rubella är ovanligt i Sverige tack vare vaccinationsprogrammet men fertil vårdpersonal bör ändå kontrolleras.</p>
+                <p>Uttryckliga förbud enligt AFS 2023:2 vid utebliven immunitet.<sup>7</sup> Brott kan ge sanktionsavgift. Rubella är ovanligt i Sverige tack vare vaccinationsprogrammet men fertil vårdpersonal bör ändå kontrolleras.</p>
               </div>
             </li>
             <li>
               <div>
                 <h4>Blodburna smittor (HBV, HCV, HIV)</h4>
-                <p>Basala hygien- och stickskyddsrutiner räcker. Risken är inte större för gravid än för övrig personal om rutinerna följs. Stickskador hanteras akut enligt Vårdhandboken.</p>
+                <p>Basala hygien- och stickskyddsrutiner räcker.<sup>8</sup> Risken är inte större för gravid än för övrig personal om rutinerna följs. Stickskador hanteras akut enligt Vårdhandboken.</p>
               </div>
             </li>
           </ol>
+
+          <div className="src">
+            <div className="src__h">Källor · Vancouver</div>
+            <ol className="src__list">
+              <li>Cannon MJ, Schmid DS, Hyde TB. Review of cytomegalovirus seroprevalence and demographic characteristics associated with infection. Rev Med Virol. 2010;20(4):202–13.</li>
+              <li>Kenneson A, Cannon MJ. Review and meta-analysis of the epidemiology of congenital cytomegalovirus (CMV) infection. Rev Med Virol. 2007;17(4):253–76.</li>
+              <li>Enders M, Weidner A, Zoellner I, Searle K, Enders G. Fetal morbidity and mortality after acute human parvovirus B19 infection in pregnancy: prospective evaluation of 1018 cases. Prenat Diagn. 2004;24(7):513–8.</li>
+              <li>Royal College of Obstetricians and Gynaecologists. Chickenpox in Pregnancy (Green-top Guideline No. 13). London: RCOG; 2015.</li>
+              <li>Folkhälsomyndigheten. Mässling — sjukdomsinformation. Stockholm: Folkhälsomyndigheten; 2023.</li>
+              <li>Zenner D, Kruijshaar ME, Andrews N, Abubakar I. Risk of tuberculosis in pregnancy: a national, primary care-based cohort and self-controlled case series study. Am J Respir Crit Care Med. 2012;185(7):779–84.</li>
+              <li>Arbetsmiljöverket. Föreskrifter om planering och organisering av arbetsmiljöarbete (AFS 2023:2), kapitel 7 — Gravida, nyförlösta och ammande arbetstagare. Stockholm: Arbetsmiljöverket; 2023.</li>
+              <li>Socialstyrelsen. Föreskrifter om basal hygien i vård och omsorg (SOSFS 2015:10). Stockholm: Socialstyrelsen; 2015.</li>
+            </ol>
+          </div>
         </div>
       </div>
 
@@ -122,7 +136,7 @@ export default function Arbetsmiljo() {
         <div className="grid__label"><strong>3.4</strong>Joniserande strålning</div>
         <div className="section reveal">
           <div className="section__kicker">Strålskyddslagen 4 kap 7–11 §§</div>
-          <h3 className="section__h">Läkarens starkaste skydd</h3>
+          <h3 className="section__h">Strålskyddslagen</h3>
           <div className="prose">
             <p className="lead">Strålskyddslagen ger ett starkt skydd. Efter att graviditeten anmälts ska arbetet planeras så att fosterdosen blir så låg som möjligt och <strong>inte förväntas överstiga 1 mSv</strong> under återstoden av graviditeten.</p>
             <p>Enligt <strong>4 kap 9 § SSL</strong> ska arbetsgivaren, om den gravida begär det, erbjuda arbetsuppgifter som inte innebär exponering utöver allmänhetens nivåer. Det betyder att en gravid interventionell kardiolog, radiolog, ortoped med C-båge, urolog eller kärlkirurg kan begära att slippa genomlysningsmomenten även om historisk badgedos ligger långt under gränsen.</p>
@@ -204,48 +218,40 @@ export default function Arbetsmiljo() {
         <div className="section reveal">
           <div className="section__kicker">Från anmälan till uppföljning</div>
           <div className="prose">
-            <p>Följande steg är en <strong>praktisk och rättssäker arbetsgång</strong> — en rekommenderad process snarare än lagstadgade tidsfrister. Exakta tider kan variera mellan verksamheter; det viktiga är att arbetsgivaren agerar skyndsamt och dokumenterar besluten.</p>
+            <p>Följande steg är en <strong>praktisk arbetsgång</strong> — en rekommenderad process snarare än lagstadgade tidsfrister. Exakta tider kan variera mellan verksamheter; det viktiga är att arbetsgivaren agerar skyndsamt och dokumenterar besluten.</p>
           </div>
-          <div className="rows">
+          <div className="rows rows--2col">
             <div className="row">
               <div className="row__wk">STEG 01</div>
               <div className="row__t">Skriftlig anmälan (e-post) till närmaste chef — daterar skyddets ikraftträdande</div>
-              <div className="row__meta">Du / dag 0</div>
             </div>
             <div className="row">
               <div className="row__wk">STEG 02</div>
               <div className="row__t">Chef bekräftar skriftligt och kallar till riskbedömningsmöte inom en vecka</div>
-              <div className="row__meta">Chef + skyddsombud</div>
             </div>
             <div className="row">
               <div className="row__wk">STEG 03</div>
               <div className="row__t">Undersökning enligt bilaga 1 — exponeringens art, grad och varaktighet dokumenteras</div>
-              <div className="row__meta">§ 5 AFS 2023:2</div>
             </div>
             <div className="row">
               <div className="row__wk">STEG 04</div>
               <div className="row__t">Individuell bedömning — risk klassas som acceptabel, risk eller allvarlig risk</div>
-              <div className="row__meta">§ 5 p 2</div>
             </div>
             <div className="row">
               <div className="row__wk">STEG 05</div>
               <div className="row__t">Skriftlig information om resultat och planerade åtgärder till dig</div>
-              <div className="row__meta">§ 6</div>
             </div>
             <div className="row">
               <div className="row__wk">STEG 06</div>
               <div className="row__t">Åtgärd enligt trappan: eliminera → anpassa → omplacera → arbetsförbud</div>
-              <div className="row__meta">§ 7–8</div>
             </div>
             <div className="row">
               <div className="row__wk">STEG 07</div>
               <div className="row__t">Revidering per trimester, vid ny placering och inför sista 60 dagarna</div>
-              <div className="row__meta">Levande dokument</div>
             </div>
             <div className="row">
               <div className="row__wk">STEG 08</div>
               <div className="row__t">Vid arbetsförbud — arbetsgivarutlåtande till Försäkringskassan utan dröjsmål</div>
-              <div className="row__meta">Graviditetspenning</div>
             </div>
           </div>
           <div className="callout">
@@ -322,7 +328,7 @@ export default function Arbetsmiljo() {
           <div className="section__kicker">Specifik problematik för läkare under utbildning</div>
           <h3 className="section__h">Varje ny placering är en ny riskbedömning</h3>
           <div className="prose">
-            <p>Det som följer gäller gravida läkare under utbildning i bred mening — AT, BT och ST — eftersom alla tre tjänstgöringsformerna bygger på roterande placeringar med skiftande riskprofil. En praktisk och rättssäker arbetsgång inför randning till anestesi, pediatrik, akut eller operation är att <strong>ny skriftlig riskbedömning för mottagande placering görs i god tid före tillträde — gärna 2–4 veckor</strong>, med möte med mottagande chef, studierektor och skyddsombud. Detta försummas systematiskt — Läkartidningens granskning 2018 visade att endast 3 av 39 studierektorer kunde redovisa dokumenterade individuella riskbedömningar.</p>
+            <p>Det som följer gäller gravida läkare under utbildning i bred mening — AT, BT och ST — eftersom alla tre tjänstgöringsformerna bygger på roterande placeringar med skiftande riskprofil. En praktisk och säker arbetsgång inför randning till anestesi, pediatrik, akut eller operation är att <strong>ny skriftlig riskbedömning för mottagande placering görs i god tid före tillträde — gärna 2–4 veckor</strong>, med möte med mottagande chef, studierektor och skyddsombud. Detta försummas systematiskt — Läkartidningens granskning 2018 visade att endast 3 av 39 studierektorer kunde redovisa dokumenterade individuella riskbedömningar.</p>
             <p>Studierektorn är <strong>inte</strong> arbetsmiljöansvarig — det är verksamhetschefen. Studierektorns roll är samordning: planera om rotationer, bevaka utbildningsvärdet, dokumentera att delmål kan uppfyllas via alternativ aktivitet.</p>
             <p>Att <strong>stanna kvar på en lågriskplacering</strong> är en legitim åtgärd enligt § 7 och ofta den enklaste lösningen. Läkarförbundets linje: en gravid AT-, BT- eller ST-läkare ska inte tvingas påbörja rotation till riskfylld placering om alternativ finns som ger meriteringsvärde.</p>
           </div>

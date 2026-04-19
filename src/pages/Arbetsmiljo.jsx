@@ -74,43 +74,50 @@ export default function Arbetsmiljo() {
           <div className="section__kicker">Smittämnen i riskklass 2–4</div>
           <h3 className="section__h">Smittor som måste bedömas individuellt</h3>
           <div className="prose">
-            <p>Sjukhusmiljön är per definition förenad med risk för potenta patogener. Vissa smittämnen omfattas av uttryckliga förbud enligt AFS 2023:2 när immunitet saknas, medan andra kräver individuell bedömning utifrån exponeringens art, grad och varaktighet.<sup>7</sup> I klinisk vardag bör därför både immunitetsstatus, arbetsmoment och lokala skyddsrutiner vägas in.</p>
+            <p>AFS 2023:2 kap 7 har <strong>endast två uttryckliga förbud</strong> vid saknad immunitet: <strong>rubella</strong> och <strong>toxoplasma</strong> (7 kap 6 §) — brott ger sanktionsavgift.<sup>1</sup> Övriga smittämnen (CMV, parvovirus B19, varicella, mässling, TB, blodburna smittor) omfattas av <strong>individuell riskbedömning</strong> enligt 7 kap 4 §, inte förbud.</p>
+            <p>Rätten till serologisk provtagning är inte fri. <strong>En arbetstagare kan inte ensidigt kräva serologi</strong> — behovet avgörs av arbetsgivarens riskbedömning i samråd med företagshälsovården eller CAMM.<sup>2</sup> InfPreg avråder t.ex. från rutinmässig CMV- och parvovirus-screening av vårdpersonal, medan MPR-status (rubella) regelmässigt kontrolleras hos fertil vårdpersonal.<sup>3,4</sup></p>
           </div>
           <ol className="list-num">
             <li>
               <div>
                 <h4>Cytomegalovirus (CMV)</h4>
-                <p>Den mest omdiskuterade risken i svensk vård. 30–50 % av unga kvinnor är immunnegativa.<sup>1</sup> Primärinfektion under graviditet överförs till fostret i cirka 30–40 % av fallen.<sup>2</sup> Pragmatisk hållning: serologi bör erbjudas <em>före</em> graviditet till personal på pediatrik, neonatologi och barnakut. Immunnegativ gravid kan ofta arbeta kvar med modifierade uppgifter (ingen blöj-/saliv-/urin-kontakt med barn under tre år) snarare än full omplacering.</p>
+                <p>Cirka <strong>30 % av unga kvinnor i Sverige är CMV-seronegativa</strong>.<sup>3</sup> Vid maternell primärinfektion överförs viruset till fostret i ca 40 % av fallen.<sup>3</sup> Svenska studier har inte kunnat visa en arbetsrelaterad överrisk för CMV hos vårdpersonal. <strong>InfPreg avråder från rutinmässig CMV-serologi av personal</strong> och anger att omplacering av gravid som regel inte är befogad.<sup>3</sup> Fokus ligger på god handhygien vid saliv-, urin- och blöjkontakt med barn under tre år.</p>
               </div>
             </li>
             <li>
               <div>
                 <h4>Parvovirus B19 (femte sjukan)</h4>
-                <p>Underskattad risk. Primärinfektion före graviditetsvecka 20 ger cirka 9 % risk för fosterdöd och risk för hydrops fetalis.<sup>3</sup> Vid utbrott på barn- eller infektionsavdelning bör immunnegativ gravid normalt omplaceras.</p>
+                <p>Vid maternell primärinfektion smittas fostret i ca 30 %. Risken för allvarlig fetal skada (hydrops fetalis, fosterdöd) är <strong>5–10 % vid symtomatisk primärinfektion</strong>, främst under senare delen av första och tidig andra trimester.<sup>5</sup> Vid pågående utbrott kan omplacering av mottaglig gravid övervägas i samråd — smittrisken är låggradig och utdragen. <strong>Rutinmässig serologisk screening av personal rekommenderas inte.</strong><sup>5</sup></p>
               </div>
             </li>
             <li>
               <div>
                 <h4>Varicella zoster och mässling</h4>
-                <p>Högsmittsamt luftburet. Vid misstänkt eller känd exponering för mässling eller vattkoppor hos icke-immun gravid personal är försiktighetslinjen i praktiken ofta mycket restriktiv.<sup>4,5</sup> Även om skyddsutrustning minskar risken bör arbetsgivaren normalt planera bort sådan exponering snarare än förlita sig enbart på FFP3.</p>
+                <p>Högsmittsamt luftburet. Vid bekräftad eller misstänkt exponering för mässling eller vattkoppor hos icke-immun gravid arbetstagare ska sådan kontakt undvikas — ordna arbetsuppgifter utan exponering snarare än förlita sig enbart på FFP3.<sup>6,7</sup> Postexpositionsprofylax (VZIG vid varicella, MPR inom 3 dygn vid mässling) övervägs enligt infektionsklinik. All vårdpersonal bör vara MPR-vaccinerad (två doser).<sup>4</sup></p>
               </div>
             </li>
             <li>
               <div>
                 <h4>Tuberkulos</h4>
-                <p>Passform-testad FFP3 i enkelrum med sluss ger i regel fullgott skydd. Vid högsmittsam multiresistent TB kan ytterligare åtgärder eller omplacering övervägas. Observera risk för reaktivering av latent TB postpartum.<sup>6</sup></p>
+                <p>Passform-testad FFP3 i enkelrum med sluss är standard vid vård av smittsam TB. Vid högsmittsam multiresistent TB kan ytterligare åtgärder eller omplacering övervägas. Observera risk för reaktivering av latent TB postpartum. Ingen AFS-specifik paragraf om TB och gravida — individuell bedömning enligt 7 kap 4 §.<sup>1</sup></p>
               </div>
             </li>
             <li>
               <div>
-                <h4>Rubella (röda hund) och toxoplasma</h4>
-                <p>Uttryckliga förbud enligt AFS 2023:2 vid utebliven immunitet.<sup>7</sup> Brott kan ge sanktionsavgift. Rubella är ovanligt i Sverige tack vare vaccinationsprogrammet men fertil vårdpersonal bör ändå kontrolleras.</p>
+                <h4>Rubella (röda hund)</h4>
+                <p>AFS 2023:2 7 kap 6 § <strong>förbjuder</strong> arbete med rubella vid saknad immunitet; brott ger sanktionsavgift.<sup>1</sup> I praktiken aktualiseras förbudet sällan i Sverige tack vare MPR-programmet. Fertil vårdpersonal utan dokumenterad tvådos-MPR bör erbjudas serologi och vaccination via företagshälsovården.<sup>4,8</sup></p>
+              </div>
+            </li>
+            <li>
+              <div>
+                <h4>Toxoplasma</h4>
+                <p>Formellt samma uttryckliga förbud som rubella enligt 7 kap 6 §.<sup>1</sup> I klinisk vårdpraxis <strong>sällan aktuellt</strong> — toxoplasma smittar inte människa-till-människa utan är främst en laboratorie-, obduktions- och mikrobiologifråga. Rutinmässig serologisk screening av vårdpersonal rekommenderas inte.<sup>9</sup></p>
               </div>
             </li>
             <li>
               <div>
                 <h4>Blodburna smittor (HBV, HCV, HIV)</h4>
-                <p>Basala hygien- och stickskyddsrutiner räcker.<sup>8</sup> Risken är inte större för gravid än för övrig personal om rutinerna följs. Stickskador hanteras akut enligt Vårdhandboken.</p>
+                <p>Basala hygien- och stickskyddsrutiner räcker.<sup>10</sup> Risken är inte större för gravid än för övrig personal om rutinerna följs. Stickskador hanteras akut enligt Vårdhandboken.</p>
               </div>
             </li>
           </ol>
@@ -118,14 +125,16 @@ export default function Arbetsmiljo() {
           <div className="src">
             <div className="src__h">Källor · Vancouver</div>
             <ol className="src__list">
-              <li>Cannon MJ, Schmid DS, Hyde TB. Review of cytomegalovirus seroprevalence and demographic characteristics associated with infection. Rev Med Virol. 2010;20(4):202–13.</li>
-              <li>Kenneson A, Cannon MJ. Review and meta-analysis of the epidemiology of congenital cytomegalovirus (CMV) infection. Rev Med Virol. 2007;17(4):253–76.</li>
-              <li>Enders M, Weidner A, Zoellner I, Searle K, Enders G. Fetal morbidity and mortality after acute human parvovirus B19 infection in pregnancy: prospective evaluation of 1018 cases. Prenat Diagn. 2004;24(7):513–8.</li>
-              <li>Royal College of Obstetricians and Gynaecologists. Chickenpox in Pregnancy (Green-top Guideline No. 13). London: RCOG; 2015.</li>
-              <li>Folkhälsomyndigheten. Mässling — sjukdomsinformation. Stockholm: Folkhälsomyndigheten; 2023.</li>
-              <li>Zenner D, Kruijshaar ME, Andrews N, Abubakar I. Risk of tuberculosis in pregnancy: a national, primary care-based cohort and self-controlled case series study. Am J Respir Crit Care Med. 2012;185(7):779–84.</li>
-              <li>Arbetsmiljöverket. Föreskrifter om planering och organisering av arbetsmiljöarbete (AFS 2023:2), kapitel 7 — Gravida, nyförlösta och ammande arbetstagare. Stockholm: Arbetsmiljöverket; 2023.</li>
-              <li>Socialstyrelsen. Föreskrifter om basal hygien i vård och omsorg (SOSFS 2015:10). Stockholm: Socialstyrelsen; 2015.</li>
+              <li>Arbetsmiljöverket. Planering och organisering av arbetsmiljöarbete (AFS 2023:2), kap 7 — Gravida, nyförlösta och ammande arbetstagare. Stockholm: Arbetsmiljöverket; 2023. Tillgänglig: av.se/arbetsmiljoarbete-och-inspektioner/publikationer/foreskrifter/afs-20232/</li>
+              <li>Centrum för arbets- och miljömedicin (CAMM), Region Stockholm. Om du är gravid. Tillgänglig: camm.regionstockholm.se/patientmottagning/arbets--och-miljomedicinska-mottagningen/om-du-ar-gravid/</li>
+              <li>InfPreg (MedSciNet). Cytomegalovirus (CMV) — information för hälso- och sjukvården. Tillgänglig: medscinet.se/infpreg/healthcareinfomore.aspx?topic=8</li>
+              <li>Folkhälsomyndigheten. Rekommendationer om vaccination mot mässling, påssjuka och röda hund (MPR). Stockholm: Folkhälsomyndigheten. Tillgänglig: folkhalsomyndigheten.se/smittskydd-beredskap/vaccinationer/rekommendationer-for-vaccination/</li>
+              <li>InfPreg (MedSciNet). Parvovirus B19V. Tillgänglig: medscinet.se/infpreg/healthcareinfoMore.aspx?topic=27</li>
+              <li>InfPreg (MedSciNet). Varicella zoster. Tillgänglig: medscinet.se/infpreg/healthcareinfomore.aspx?topic=32</li>
+              <li>InfPreg (MedSciNet). Mässling (morbilli). Tillgänglig: medscinet.se/infpreg/healthcareinfoMore.aspx?topic=42</li>
+              <li>InfPreg (MedSciNet). Rubella (röda hund). Tillgänglig: medscinet.se/infpreg/healthcareinfoMore.aspx?topic=28</li>
+              <li>InfPreg (MedSciNet). Toxoplasma. Tillgänglig: medscinet.se/infpreg/healthcareinfoMore.aspx?topic=30</li>
+              <li>Vårdhandboken. Basala hygienrutiner och personlig hygien; Stick- och skärskador samt exponering med risk för blodburen smitta. Tillgänglig: vardhandboken.se</li>
             </ol>
           </div>
         </div>

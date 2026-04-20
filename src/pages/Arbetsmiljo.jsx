@@ -201,21 +201,21 @@ export default function Arbetsmiljo() {
         </div>
       </div>
 
-      {/* 3.6 Stockholms-avtalet om jourbefrielse */}
+      {/* 3.6 Jourbefrielse enligt LOK 25 */}
       <div className="grid">
         <div className="grid__label"><strong>3.6</strong>Jourbefrielse</div>
         <div className="section reveal">
-          <div className="section__kicker">Lokalt avtal Region Stockholm</div>
+          <div className="section__kicker">LOK 25 § 9</div>
           <h3 className="section__h">Rätten att befrias från jour från dag ett</h3>
           <div className="prose">
-            <p className="lead">Stockholms läkarförening slöt i september 2008 ett lokalt kollektivavtal med dåvarande Stockholms läns landsting som ger gravida läkare rätt att <strong>på egen begäran</strong> befrias från jourarbete på kvällar, nätter och helger <strong>omedelbart från det att graviditeten konstaterats</strong>.</p>
-            <p>Avtalet innebär att kravet på medicinska intyg och väntetider bortfaller inom dess tillämpningsområde, och bygger på att fostret är som mest känsligt under organogenesen tidigt i graviditeten. Det är ett lokalt avtals- och tillämpningsspår som kan ge tidigare jourbefrielse än de centrala reglerna — men den exakta innebörden och giltigheten bör verifieras med lokal läkarförening eller HR, inte åberopas som en universell regel utan kontroll. Rätten medför också ett schemapussel för verksamheten, vilket kan skapa friktion.</p>
+            <p className="lead">Enligt LOK 25 § 9 kan gravida läkare <strong>på egen begäran</strong> befrias från jour och beredskapsarbete på kvällar och nätter. Befrielse på övrig tid hanteras inom respektive förvaltning.</p>
+            <p>Bestämmelsen innebär att inget läkarintyg krävs — det räcker med din egen begäran. Rätten ger tidigare jourbefrielse än de centrala reglerna (som gäller de sista 60 dagarna) och bygger på att fostret är som mest känsligt under organogenesen tidigt i graviditeten. Rätten medför ett schemapussel för verksamheten, vilket kan skapa friktion.</p>
           </div>
           <div className="callout">
             <div className="callout__tag">Så gör du</div>
             <div>
               <h5>Åberopa avtalet skriftligt</h5>
-              <p>Skicka en kort skriftlig begäran till din klinikchef med hänvisning till det lokala avtalet mellan Region Stockholm och Stockholms läkarförening (2008). Du behöver inget läkarintyg. Kopia till skyddsombud rekommenderas.</p>
+              <p>Skicka en kort skriftlig begäran till din klinikchef med hänvisning till LOK 25 § 9. Du behöver inget läkarintyg. Kopia till skyddsombud rekommenderas.</p>
             </div>
           </div>
         </div>

@@ -8,7 +8,7 @@ const FAQ_ITEMS = [
   },
   {
     q: "Kan jag kräva jourbefrielse, och från när?",
-    a: "Läkarförbundet och SKR har centralt avtalat att läkare som vill ska få befrias från jour- och beredskapstjänst under graviditetens sista 60 dagar. I Region Stockholm finns därutöver ett lokalt avtal från 2008 som ger rätt till jourbefrielse på egen begäran från det att graviditeten är konstaterad — utan krav på läkarintyg. Åberopa avtalet skriftligt till klinikchefen."
+    a: "Läkarförbundet och SKR har centralt avtalat att läkare som vill ska få befrias från jour- och beredskapstjänst under graviditetens sista 60 dagar. I Region Stockholm ger LOK 25 § 9 rätt till befrielse från jour och beredskapsarbete på kvällar och nätter på egen begäran — utan krav på läkarintyg — från det att graviditeten är konstaterad. Befrielse på övrig tid hanteras inom respektive förvaltning. Åberopa avtalet skriftligt till klinikchefen."
   },
   {
     q: "Kan jag slippa nattarbete hela graviditeten?",

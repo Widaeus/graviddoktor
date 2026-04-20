@@ -10,7 +10,7 @@ const NODES = [
     d: 'Skyddet aktiveras av din anmälan — AFS 2023:2 kap 7.',
     acts: [
       { tag: 'bor', txt: 'Mejla chef' },
-      { tag: 'kan', txt: 'Åberopa lokalt jouravtal (Region Stockholm 2008)' },
+      { tag: 'kan', txt: 'Åberopa jourbefrielse enligt LOK 25 § 9' },
     ],
     filled: true,
   },
